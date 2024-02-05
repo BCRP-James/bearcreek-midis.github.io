@@ -135,7 +135,7 @@ async function displayFileList(files) {
             </div>
             <button class="play-button" data-url="${file.download_url}">►</button>
             <div class="PlayMusicPos"></div>
-            <button class="copy-button" data-url="https://thewildwestmidis.github.io/midis/${midiNameUrl}">Copy Midi Data</button>
+            <button class="copy-button" data-url="https://bearcreek-midis.github.io/midis/${midiNameUrl}">Copy Midi Data</button>
             <button class="${isFavorite ? 'remove-favorite-button' : 'favorite-button'}" data-file='${JSON.stringify(file)}'>
                 ${isFavorite ? 'Unfavorite' : 'Favorite'}
             </button>
