@@ -37,7 +37,7 @@ let currentPage = 1;
 
 async function fetchMidiFiles(searchTerm = '', page = 1, pageSize = 50) {
     try {
-        const response = await fetch('https://api.github.com/repos/thewildwestmidis/midis/contents/');
+        const response = await fetch('https://api.github.com/repos/BCRP-James/bearcreek-midis/contents/');
         const data = await response.json();
 
         console.log(data)
