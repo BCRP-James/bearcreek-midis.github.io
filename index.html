@@ -1,7 +1,597 @@
-<!DOCTYPE html>
-<html>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+
+    <header>
+        <div style="display: flex; justify-content: left; gap: 20px;">
+            <h2 style="margin: 0;"></h2>The Wild West Midis
+            <p style="margin: 0; color: #b7b7b7;">
+                <a href="/tutorial" style="color: inherit; text-decoration: underline;">How to play music</a>
+            </p>
+            <p style="margin: 0; color: #b7b7b7;">
+                <a href="/request" target="" style="color: inherit; text-decoration: underline;">Request Midis</a>
+            </p>
+            <p style="margin: 0; color: #b7b7b7;">
+                <a href="/favorites" target="" style="color: inherit; text-decoration: underline;">Your Favorites</a>
+            </p>
+            <p style="margin: 0; color: #b7b7b7;">
+                <a href="/about" target="" style="color: inherit; text-decoration: underline;">About</a>
+            </p>
+        </div>
+    </header>
+    <center>
+        <h1>The Wild West Midis</h1>
+        <h3>The best midi list for the wild west! 700+ Midis</h3>
+        <p>The wild west midis by Bertogim</p>
+    </center>
+
+
+    <form id="search-form">
+        <a id="BackButton" href="/" style="display: none;">🡨 Back</a>  
+        <input type="text" id="search-input" placeholder="Search Midis">
+        <button type="submit">Search</button>
+    </form>
+
+    <ul id="file-list"><li>
+            <div class="divmidiinfo">
+                <p class="midiname"><a href="/midi?m=7%20Weeks%20&amp;%203%20Days%20-%20Yungatita.mid" style="color: inherit; text-decoration: none;">7 Weeks &amp; 3 Days - Yungatita</a></p>
+                <p class="duration">0 min, 48 sec</p>
+            </div>
+            <button class="play-button" data-url="https://raw.githubusercontent.com/thewildwestmidis/midis/main/7%20Weeks%20%26%203%20Days%20-%20Yungatita.mid">►</button>
+            <div class="PlayMusicPos"></div>
+            <button class="copy-button" data-url="https://thewildwestmidis.github.io/midis/7%20Weeks%20&amp;%203%20Days%20-%20Yungatita.mid">Copy Midi Data</button>
+            <button class="favorite-button" data-file="{&quot;name&quot;:&quot;7 Weeks &amp; 3 Days - Yungatita.mid&quot;,&quot;path&quot;:&quot;7 Weeks &amp; 3 Days - Yungatita.mid&quot;,&quot;sha&quot;:&quot;45356c18d4116492714ef1d55a282c38d3775d1e&quot;,&quot;size&quot;:2103,&quot;url&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/contents/7%20Weeks%20&amp;%203%20Days%20-%20Yungatita.mid?ref=main&quot;,&quot;html_url&quot;:&quot;https://github.com/thewildwestmidis/midis/blob/main/7%20Weeks%20&amp;%203%20Days%20-%20Yungatita.mid&quot;,&quot;git_url&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/git/blobs/45356c18d4116492714ef1d55a282c38d3775d1e&quot;,&quot;download_url&quot;:&quot;https://raw.githubusercontent.com/thewildwestmidis/midis/main/7%20Weeks%20%26%203%20Days%20-%20Yungatita.mid&quot;,&quot;type&quot;:&quot;file&quot;,&quot;_links&quot;:{&quot;self&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/contents/7%20Weeks%20&amp;%203%20Days%20-%20Yungatita.mid?ref=main&quot;,&quot;git&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/git/blobs/45356c18d4116492714ef1d55a282c38d3775d1e&quot;,&quot;html&quot;:&quot;https://github.com/thewildwestmidis/midis/blob/main/7%20Weeks%20&amp;%203%20Days%20-%20Yungatita.mid&quot;}}">
+                Favorite
+            </button>
+        </li><li>
+            <div class="divmidiinfo">
+                <p class="midiname"><a href="/midi?m=A%20HA.Take%20on%20me%20%20K.mid" style="color: inherit; text-decoration: none;">A HA.Take on me  K</a></p>
+                <p class="duration">3 min, 44 sec</p>
+            </div>
+            <button class="play-button" data-url="https://raw.githubusercontent.com/thewildwestmidis/midis/main/A%20HA.Take%20on%20me%20%20K.mid">►</button>
+            <div class="PlayMusicPos"></div>
+            <button class="copy-button" data-url="https://thewildwestmidis.github.io/midis/A%20HA.Take%20on%20me%20%20K.mid">Copy Midi Data</button>
+            <button class="favorite-button" data-file="{&quot;name&quot;:&quot;A HA.Take on me  K.mid&quot;,&quot;path&quot;:&quot;A HA.Take on me  K.mid&quot;,&quot;sha&quot;:&quot;8f3877db11029784762257620c005731c4922042&quot;,&quot;size&quot;:47731,&quot;url&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/contents/A%20HA.Take%20on%20me%20%20K.mid?ref=main&quot;,&quot;html_url&quot;:&quot;https://github.com/thewildwestmidis/midis/blob/main/A%20HA.Take%20on%20me%20%20K.mid&quot;,&quot;git_url&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/git/blobs/8f3877db11029784762257620c005731c4922042&quot;,&quot;download_url&quot;:&quot;https://raw.githubusercontent.com/thewildwestmidis/midis/main/A%20HA.Take%20on%20me%20%20K.mid&quot;,&quot;type&quot;:&quot;file&quot;,&quot;_links&quot;:{&quot;self&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/contents/A%20HA.Take%20on%20me%20%20K.mid?ref=main&quot;,&quot;git&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/git/blobs/8f3877db11029784762257620c005731c4922042&quot;,&quot;html&quot;:&quot;https://github.com/thewildwestmidis/midis/blob/main/A%20HA.Take%20on%20me%20%20K.mid&quot;}}">
+                Favorite
+            </button>
+        </li><li>
+            <div class="divmidiinfo">
+                <p class="midiname"><a href="/midi?m=A%20Memory%20of%20Tides%20-%20Deepwoken.mid" style="color: inherit; text-decoration: none;">A Memory of Tides - Deepwoken</a></p>
+                <p class="duration">0 min, 18 sec</p>
+            </div>
+            <button class="play-button" data-url="https://raw.githubusercontent.com/thewildwestmidis/midis/main/A%20Memory%20of%20Tides%20-%20Deepwoken.mid">►</button>
+            <div class="PlayMusicPos"></div>
+            <button class="copy-button" data-url="https://thewildwestmidis.github.io/midis/A%20Memory%20of%20Tides%20-%20Deepwoken.mid">Copy Midi Data</button>
+            <button class="favorite-button" data-file="{&quot;name&quot;:&quot;A Memory of Tides - Deepwoken.mid&quot;,&quot;path&quot;:&quot;A Memory of Tides - Deepwoken.mid&quot;,&quot;sha&quot;:&quot;1534507b8cfff111b0d534558a3c4e0a6f6e270e&quot;,&quot;size&quot;:6553,&quot;url&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/contents/A%20Memory%20of%20Tides%20-%20Deepwoken.mid?ref=main&quot;,&quot;html_url&quot;:&quot;https://github.com/thewildwestmidis/midis/blob/main/A%20Memory%20of%20Tides%20-%20Deepwoken.mid&quot;,&quot;git_url&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/git/blobs/1534507b8cfff111b0d534558a3c4e0a6f6e270e&quot;,&quot;download_url&quot;:&quot;https://raw.githubusercontent.com/thewildwestmidis/midis/main/A%20Memory%20of%20Tides%20-%20Deepwoken.mid&quot;,&quot;type&quot;:&quot;file&quot;,&quot;_links&quot;:{&quot;self&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/contents/A%20Memory%20of%20Tides%20-%20Deepwoken.mid?ref=main&quot;,&quot;git&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/git/blobs/1534507b8cfff111b0d534558a3c4e0a6f6e270e&quot;,&quot;html&quot;:&quot;https://github.com/thewildwestmidis/midis/blob/main/A%20Memory%20of%20Tides%20-%20Deepwoken.mid&quot;}}">
+                Favorite
+            </button>
+        </li><li>
+            <div class="divmidiinfo">
+                <p class="midiname"><a href="/midi?m=A%20Mighty%20Fortress%20Is%20Our%20God.mid" style="color: inherit; text-decoration: none;">A Mighty Fortress Is Our God</a></p>
+                <p class="duration">1 min, 09 sec</p>
+            </div>
+            <button class="play-button" data-url="https://raw.githubusercontent.com/thewildwestmidis/midis/main/A%20Mighty%20Fortress%20Is%20Our%20God.mid">►</button>
+            <div class="PlayMusicPos"></div>
+            <button class="copy-button" data-url="https://thewildwestmidis.github.io/midis/A%20Mighty%20Fortress%20Is%20Our%20God.mid">Copy Midi Data</button>
+            <button class="favorite-button" data-file="{&quot;name&quot;:&quot;A Mighty Fortress Is Our God.mid&quot;,&quot;path&quot;:&quot;A Mighty Fortress Is Our God.mid&quot;,&quot;sha&quot;:&quot;97907fcdb6500ab8d5b513bc1e967fd9d9937c1e&quot;,&quot;size&quot;:2855,&quot;url&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/contents/A%20Mighty%20Fortress%20Is%20Our%20God.mid?ref=main&quot;,&quot;html_url&quot;:&quot;https://github.com/thewildwestmidis/midis/blob/main/A%20Mighty%20Fortress%20Is%20Our%20God.mid&quot;,&quot;git_url&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/git/blobs/97907fcdb6500ab8d5b513bc1e967fd9d9937c1e&quot;,&quot;download_url&quot;:&quot;https://raw.githubusercontent.com/thewildwestmidis/midis/main/A%20Mighty%20Fortress%20Is%20Our%20God.mid&quot;,&quot;type&quot;:&quot;file&quot;,&quot;_links&quot;:{&quot;self&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/contents/A%20Mighty%20Fortress%20Is%20Our%20God.mid?ref=main&quot;,&quot;git&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/git/blobs/97907fcdb6500ab8d5b513bc1e967fd9d9937c1e&quot;,&quot;html&quot;:&quot;https://github.com/thewildwestmidis/midis/blob/main/A%20Mighty%20Fortress%20Is%20Our%20God.mid&quot;}}">
+                Favorite
+            </button>
+        </li><li>
+            <div class="divmidiinfo">
+                <p class="midiname"><a href="/midi?m=A%20Poor%20Wayfaring%20Man%20of%20Grief.mid" style="color: inherit; text-decoration: none;">A Poor Wayfaring Man of Grief</a></p>
+                <p class="duration">6 min, 40 sec</p>
+            </div>
+            <button class="play-button" data-url="https://raw.githubusercontent.com/thewildwestmidis/midis/main/A%20Poor%20Wayfaring%20Man%20of%20Grief.mid">►</button>
+            <div class="PlayMusicPos"></div>
+            <button class="copy-button" data-url="https://thewildwestmidis.github.io/midis/A%20Poor%20Wayfaring%20Man%20of%20Grief.mid">Copy Midi Data</button>
+            <button class="favorite-button" data-file="{&quot;name&quot;:&quot;A Poor Wayfaring Man of Grief.mid&quot;,&quot;path&quot;:&quot;A Poor Wayfaring Man of Grief.mid&quot;,&quot;sha&quot;:&quot;3b99b14f796869d30ba1ceda7ca7cf455df89cf6&quot;,&quot;size&quot;:14703,&quot;url&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/contents/A%20Poor%20Wayfaring%20Man%20of%20Grief.mid?ref=main&quot;,&quot;html_url&quot;:&quot;https://github.com/thewildwestmidis/midis/blob/main/A%20Poor%20Wayfaring%20Man%20of%20Grief.mid&quot;,&quot;git_url&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/git/blobs/3b99b14f796869d30ba1ceda7ca7cf455df89cf6&quot;,&quot;download_url&quot;:&quot;https://raw.githubusercontent.com/thewildwestmidis/midis/main/A%20Poor%20Wayfaring%20Man%20of%20Grief.mid&quot;,&quot;type&quot;:&quot;file&quot;,&quot;_links&quot;:{&quot;self&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/contents/A%20Poor%20Wayfaring%20Man%20of%20Grief.mid?ref=main&quot;,&quot;git&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/git/blobs/3b99b14f796869d30ba1ceda7ca7cf455df89cf6&quot;,&quot;html&quot;:&quot;https://github.com/thewildwestmidis/midis/blob/main/A%20Poor%20Wayfaring%20Man%20of%20Grief.mid&quot;}}">
+                Favorite
+            </button>
+        </li><li>
+            <div class="divmidiinfo">
+                <p class="midiname"><a href="/midi?m=A-Whole-New-World-(Theme-From-'Aladdin').mid" style="color: inherit; text-decoration: none;">A Whole New World (Theme From 'Aladdin')</a></p>
+                <p class="duration">3 min, 57 sec</p>
+            </div>
+            <button class="play-button" data-url="https://raw.githubusercontent.com/thewildwestmidis/midis/main/A-Whole-New-World-(Theme-From-'Aladdin').mid">►</button>
+            <div class="PlayMusicPos"></div>
+            <button class="copy-button" data-url="https://thewildwestmidis.github.io/midis/A-Whole-New-World-(Theme-From-'Aladdin').mid">Copy Midi Data</button>
+            <button class="favorite-button" data-file="{&quot;name&quot;:&quot;A-Whole-New-World-(Theme-From-" aladdin').mid","path":"a-whole-new-world-(theme-from-'aladdin').mid","sha":"85a62a8b395a995523de9afe227424c04a3d22e4","size":34346,"url":"https:="" api.github.com="" repos="" thewildwestmidis="" midis="" contents="" a-whole-new-world-(theme-from-'aladdin').mid?ref="main&quot;,&quot;html_url&quot;:&quot;https://github.com/thewildwestmidis/midis/blob/main/A-Whole-New-World-(Theme-From-'Aladdin').mid&quot;,&quot;git_url&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/git/blobs/85a62a8b395a995523de9afe227424c04a3d22e4&quot;,&quot;download_url&quot;:&quot;https://raw.githubusercontent.com/thewildwestmidis/midis/main/A-Whole-New-World-(Theme-From-'Aladdin').mid&quot;,&quot;type&quot;:&quot;file&quot;,&quot;_links&quot;:{&quot;self&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/contents/A-Whole-New-World-(Theme-From-'Aladdin').mid?ref=main&quot;,&quot;git&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/git/blobs/85a62a8b395a995523de9afe227424c04a3d22e4&quot;,&quot;html&quot;:&quot;https://github.com/thewildwestmidis/midis/blob/main/A-Whole-New-World-(Theme-From-'Aladdin').mid&quot;}}'">
+                Favorite
+            </button>
+        </li><li>
+            <div class="divmidiinfo">
+                <p class="midiname"><a href="/midi?m=ABBA%20-%20Dancing%20Queen.mid" style="color: inherit; text-decoration: none;">ABBA - Dancing Queen</a></p>
+                <p class="duration">3 min, 58 sec</p>
+            </div>
+            <button class="play-button" data-url="https://raw.githubusercontent.com/thewildwestmidis/midis/main/ABBA%20-%20Dancing%20Queen.mid">►</button>
+            <div class="PlayMusicPos"></div>
+            <button class="copy-button" data-url="https://thewildwestmidis.github.io/midis/ABBA%20-%20Dancing%20Queen.mid">Copy Midi Data</button>
+            <button class="favorite-button" data-file="{&quot;name&quot;:&quot;ABBA - Dancing Queen.mid&quot;,&quot;path&quot;:&quot;ABBA - Dancing Queen.mid&quot;,&quot;sha&quot;:&quot;289c84724feacc9b26327492432c5d4901ca98cb&quot;,&quot;size&quot;:31698,&quot;url&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/contents/ABBA%20-%20Dancing%20Queen.mid?ref=main&quot;,&quot;html_url&quot;:&quot;https://github.com/thewildwestmidis/midis/blob/main/ABBA%20-%20Dancing%20Queen.mid&quot;,&quot;git_url&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/git/blobs/289c84724feacc9b26327492432c5d4901ca98cb&quot;,&quot;download_url&quot;:&quot;https://raw.githubusercontent.com/thewildwestmidis/midis/main/ABBA%20-%20Dancing%20Queen.mid&quot;,&quot;type&quot;:&quot;file&quot;,&quot;_links&quot;:{&quot;self&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/contents/ABBA%20-%20Dancing%20Queen.mid?ref=main&quot;,&quot;git&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/git/blobs/289c84724feacc9b26327492432c5d4901ca98cb&quot;,&quot;html&quot;:&quot;https://github.com/thewildwestmidis/midis/blob/main/ABBA%20-%20Dancing%20Queen.mid&quot;}}">
+                Favorite
+            </button>
+        </li><li>
+            <div class="divmidiinfo">
+                <p class="midiname"><a href="/midi?m=ACDC.Highway%20to%20Hell%20K.mid" style="color: inherit; text-decoration: none;">ACDC.Highway to Hell K</a></p>
+                <p class="duration">3 min, 06 sec</p>
+            </div>
+            <button class="play-button" data-url="https://raw.githubusercontent.com/thewildwestmidis/midis/main/ACDC.Highway%20to%20Hell%20K.mid">►</button>
+            <div class="PlayMusicPos"></div>
+            <button class="copy-button" data-url="https://thewildwestmidis.github.io/midis/ACDC.Highway%20to%20Hell%20K.mid">Copy Midi Data</button>
+            <button class="favorite-button" data-file="{&quot;name&quot;:&quot;ACDC.Highway to Hell K.mid&quot;,&quot;path&quot;:&quot;ACDC.Highway to Hell K.mid&quot;,&quot;sha&quot;:&quot;9725e4c099f9949024d7e03861726b05706f3a35&quot;,&quot;size&quot;:26728,&quot;url&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/contents/ACDC.Highway%20to%20Hell%20K.mid?ref=main&quot;,&quot;html_url&quot;:&quot;https://github.com/thewildwestmidis/midis/blob/main/ACDC.Highway%20to%20Hell%20K.mid&quot;,&quot;git_url&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/git/blobs/9725e4c099f9949024d7e03861726b05706f3a35&quot;,&quot;download_url&quot;:&quot;https://raw.githubusercontent.com/thewildwestmidis/midis/main/ACDC.Highway%20to%20Hell%20K.mid&quot;,&quot;type&quot;:&quot;file&quot;,&quot;_links&quot;:{&quot;self&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/contents/ACDC.Highway%20to%20Hell%20K.mid?ref=main&quot;,&quot;git&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/git/blobs/9725e4c099f9949024d7e03861726b05706f3a35&quot;,&quot;html&quot;:&quot;https://github.com/thewildwestmidis/midis/blob/main/ACDC.Highway%20to%20Hell%20K.mid&quot;}}">
+                Favorite
+            </button>
+        </li><li>
+            <div class="divmidiinfo">
+                <p class="midiname"><a href="/midi?m=ACDC.Thunderstruck%20K.mid" style="color: inherit; text-decoration: none;">ACDC.Thunderstruck K</a></p>
+                <p class="duration">5 min, 04 sec</p>
+            </div>
+            <button class="play-button" data-url="https://raw.githubusercontent.com/thewildwestmidis/midis/main/ACDC.Thunderstruck%20K.mid">►</button>
+            <div class="PlayMusicPos"></div>
+            <button class="copy-button" data-url="https://thewildwestmidis.github.io/midis/ACDC.Thunderstruck%20K.mid">Copy Midi Data</button>
+            <button class="favorite-button" data-file="{&quot;name&quot;:&quot;ACDC.Thunderstruck K.mid&quot;,&quot;path&quot;:&quot;ACDC.Thunderstruck K.mid&quot;,&quot;sha&quot;:&quot;38284344720b5a31e1babc18a9d35f89d14d7269&quot;,&quot;size&quot;:82262,&quot;url&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/contents/ACDC.Thunderstruck%20K.mid?ref=main&quot;,&quot;html_url&quot;:&quot;https://github.com/thewildwestmidis/midis/blob/main/ACDC.Thunderstruck%20K.mid&quot;,&quot;git_url&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/git/blobs/38284344720b5a31e1babc18a9d35f89d14d7269&quot;,&quot;download_url&quot;:&quot;https://raw.githubusercontent.com/thewildwestmidis/midis/main/ACDC.Thunderstruck%20K.mid&quot;,&quot;type&quot;:&quot;file&quot;,&quot;_links&quot;:{&quot;self&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/contents/ACDC.Thunderstruck%20K.mid?ref=main&quot;,&quot;git&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/git/blobs/38284344720b5a31e1babc18a9d35f89d14d7269&quot;,&quot;html&quot;:&quot;https://github.com/thewildwestmidis/midis/blob/main/ACDC.Thunderstruck%20K.mid&quot;}}">
+                Favorite
+            </button>
+        </li><li>
+            <div class="divmidiinfo">
+                <p class="midiname"><a href="/midi?m=ALL%20MY%20FELLAS%20-%20Frizk.mid" style="color: inherit; text-decoration: none;">ALL MY FELLAS - Frizk</a></p>
+                <p class="duration">0 min, 41 sec</p>
+            </div>
+            <button class="play-button" data-url="https://raw.githubusercontent.com/thewildwestmidis/midis/main/ALL%20MY%20FELLAS%20-%20Frizk.mid">►</button>
+            <div class="PlayMusicPos"></div>
+            <button class="copy-button" data-url="https://thewildwestmidis.github.io/midis/ALL%20MY%20FELLAS%20-%20Frizk.mid">Copy Midi Data</button>
+            <button class="favorite-button" data-file="{&quot;name&quot;:&quot;ALL MY FELLAS - Frizk.mid&quot;,&quot;path&quot;:&quot;ALL MY FELLAS - Frizk.mid&quot;,&quot;sha&quot;:&quot;9b584ca5d68d83a5ac8551ddc9b301188a8f929f&quot;,&quot;size&quot;:7165,&quot;url&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/contents/ALL%20MY%20FELLAS%20-%20Frizk.mid?ref=main&quot;,&quot;html_url&quot;:&quot;https://github.com/thewildwestmidis/midis/blob/main/ALL%20MY%20FELLAS%20-%20Frizk.mid&quot;,&quot;git_url&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/git/blobs/9b584ca5d68d83a5ac8551ddc9b301188a8f929f&quot;,&quot;download_url&quot;:&quot;https://raw.githubusercontent.com/thewildwestmidis/midis/main/ALL%20MY%20FELLAS%20-%20Frizk.mid&quot;,&quot;type&quot;:&quot;file&quot;,&quot;_links&quot;:{&quot;self&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/contents/ALL%20MY%20FELLAS%20-%20Frizk.mid?ref=main&quot;,&quot;git&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/git/blobs/9b584ca5d68d83a5ac8551ddc9b301188a8f929f&quot;,&quot;html&quot;:&quot;https://github.com/thewildwestmidis/midis/blob/main/ALL%20MY%20FELLAS%20-%20Frizk.mid&quot;}}">
+                Favorite
+            </button>
+        </li><li>
+            <div class="divmidiinfo">
+                <p class="midiname"><a href="/midi?m=AMONG_DRIP_MIDI_Recreation.mid" style="color: inherit; text-decoration: none;">AMONG DRIP MIDI Recreation</a></p>
+                <p class="duration">1 min, 12 sec</p>
+            </div>
+            <button class="play-button" data-url="https://raw.githubusercontent.com/thewildwestmidis/midis/main/AMONG_DRIP_MIDI_Recreation.mid">►</button>
+            <div class="PlayMusicPos"></div>
+            <button class="copy-button" data-url="https://thewildwestmidis.github.io/midis/AMONG_DRIP_MIDI_Recreation.mid">Copy Midi Data</button>
+            <button class="favorite-button" data-file="{&quot;name&quot;:&quot;AMONG_DRIP_MIDI_Recreation.mid&quot;,&quot;path&quot;:&quot;AMONG_DRIP_MIDI_Recreation.mid&quot;,&quot;sha&quot;:&quot;f6f99707aed45d8132d9983458db90842fc9b44c&quot;,&quot;size&quot;:7667,&quot;url&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/contents/AMONG_DRIP_MIDI_Recreation.mid?ref=main&quot;,&quot;html_url&quot;:&quot;https://github.com/thewildwestmidis/midis/blob/main/AMONG_DRIP_MIDI_Recreation.mid&quot;,&quot;git_url&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/git/blobs/f6f99707aed45d8132d9983458db90842fc9b44c&quot;,&quot;download_url&quot;:&quot;https://raw.githubusercontent.com/thewildwestmidis/midis/main/AMONG_DRIP_MIDI_Recreation.mid&quot;,&quot;type&quot;:&quot;file&quot;,&quot;_links&quot;:{&quot;self&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/contents/AMONG_DRIP_MIDI_Recreation.mid?ref=main&quot;,&quot;git&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/git/blobs/f6f99707aed45d8132d9983458db90842fc9b44c&quot;,&quot;html&quot;:&quot;https://github.com/thewildwestmidis/midis/blob/main/AMONG_DRIP_MIDI_Recreation.mid&quot;}}">
+                Favorite
+            </button>
+        </li><li>
+            <div class="divmidiinfo">
+                <p class="midiname"><a href="/midi?m=Abandoned%20Castle%20(Pixel-Phil).mid" style="color: inherit; text-decoration: none;">Abandoned Castle (Pixel Phil)</a></p>
+                <p class="duration">2 min, 38 sec</p>
+            </div>
+            <button class="play-button" data-url="https://raw.githubusercontent.com/thewildwestmidis/midis/main/Abandoned%20Castle%20(Pixel-Phil).mid">►</button>
+            <div class="PlayMusicPos"></div>
+            <button class="copy-button" data-url="https://thewildwestmidis.github.io/midis/Abandoned%20Castle%20(Pixel-Phil).mid">Copy Midi Data</button>
+            <button class="favorite-button" data-file="{&quot;name&quot;:&quot;Abandoned Castle (Pixel-Phil).mid&quot;,&quot;path&quot;:&quot;Abandoned Castle (Pixel-Phil).mid&quot;,&quot;sha&quot;:&quot;1875a2d068068848ceee514cf39e1fbc783da55b&quot;,&quot;size&quot;:8920,&quot;url&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/contents/Abandoned%20Castle%20(Pixel-Phil).mid?ref=main&quot;,&quot;html_url&quot;:&quot;https://github.com/thewildwestmidis/midis/blob/main/Abandoned%20Castle%20(Pixel-Phil).mid&quot;,&quot;git_url&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/git/blobs/1875a2d068068848ceee514cf39e1fbc783da55b&quot;,&quot;download_url&quot;:&quot;https://raw.githubusercontent.com/thewildwestmidis/midis/main/Abandoned%20Castle%20(Pixel-Phil).mid&quot;,&quot;type&quot;:&quot;file&quot;,&quot;_links&quot;:{&quot;self&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/contents/Abandoned%20Castle%20(Pixel-Phil).mid?ref=main&quot;,&quot;git&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/git/blobs/1875a2d068068848ceee514cf39e1fbc783da55b&quot;,&quot;html&quot;:&quot;https://github.com/thewildwestmidis/midis/blob/main/Abandoned%20Castle%20(Pixel-Phil).mid&quot;}}">
+                Favorite
+            </button>
+        </li><li>
+            <div class="divmidiinfo">
+                <p class="midiname"><a href="/midi?m=Abide%20with%20Me%20Tis%20Eventide.mid" style="color: inherit; text-decoration: none;">Abide with Me Tis Eventide</a></p>
+                <p class="duration">3 min, 05 sec</p>
+            </div>
+            <button class="play-button" data-url="https://raw.githubusercontent.com/thewildwestmidis/midis/main/Abide%20with%20Me%20Tis%20Eventide.mid">►</button>
+            <div class="PlayMusicPos"></div>
+            <button class="copy-button" data-url="https://thewildwestmidis.github.io/midis/Abide%20with%20Me%20Tis%20Eventide.mid">Copy Midi Data</button>
+            <button class="favorite-button" data-file="{&quot;name&quot;:&quot;Abide with Me Tis Eventide.mid&quot;,&quot;path&quot;:&quot;Abide with Me Tis Eventide.mid&quot;,&quot;sha&quot;:&quot;85c5331bafe7a439686688bcb6e6781e76717f74&quot;,&quot;size&quot;:6676,&quot;url&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/contents/Abide%20with%20Me%20Tis%20Eventide.mid?ref=main&quot;,&quot;html_url&quot;:&quot;https://github.com/thewildwestmidis/midis/blob/main/Abide%20with%20Me%20Tis%20Eventide.mid&quot;,&quot;git_url&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/git/blobs/85c5331bafe7a439686688bcb6e6781e76717f74&quot;,&quot;download_url&quot;:&quot;https://raw.githubusercontent.com/thewildwestmidis/midis/main/Abide%20with%20Me%20Tis%20Eventide.mid&quot;,&quot;type&quot;:&quot;file&quot;,&quot;_links&quot;:{&quot;self&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/contents/Abide%20with%20Me%20Tis%20Eventide.mid?ref=main&quot;,&quot;git&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/git/blobs/85c5331bafe7a439686688bcb6e6781e76717f74&quot;,&quot;html&quot;:&quot;https://github.com/thewildwestmidis/midis/blob/main/Abide%20with%20Me%20Tis%20Eventide.mid&quot;}}">
+                Favorite
+            </button>
+        </li><li>
+            <div class="divmidiinfo">
+                <p class="midiname"><a href="/midi?m=Abide%20with%20Me.mid" style="color: inherit; text-decoration: none;">Abide with Me</a></p>
+                <p class="duration">2 min, 52 sec</p>
+            </div>
+            <button class="play-button" data-url="https://raw.githubusercontent.com/thewildwestmidis/midis/main/Abide%20with%20Me.mid">►</button>
+            <div class="PlayMusicPos"></div>
+            <button class="copy-button" data-url="https://thewildwestmidis.github.io/midis/Abide%20with%20Me.mid">Copy Midi Data</button>
+            <button class="favorite-button" data-file="{&quot;name&quot;:&quot;Abide with Me.mid&quot;,&quot;path&quot;:&quot;Abide with Me.mid&quot;,&quot;sha&quot;:&quot;33ecdf228492236a84458b551c11caa8565edec3&quot;,&quot;size&quot;:4474,&quot;url&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/contents/Abide%20with%20Me.mid?ref=main&quot;,&quot;html_url&quot;:&quot;https://github.com/thewildwestmidis/midis/blob/main/Abide%20with%20Me.mid&quot;,&quot;git_url&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/git/blobs/33ecdf228492236a84458b551c11caa8565edec3&quot;,&quot;download_url&quot;:&quot;https://raw.githubusercontent.com/thewildwestmidis/midis/main/Abide%20with%20Me.mid&quot;,&quot;type&quot;:&quot;file&quot;,&quot;_links&quot;:{&quot;self&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/contents/Abide%20with%20Me.mid?ref=main&quot;,&quot;git&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/git/blobs/33ecdf228492236a84458b551c11caa8565edec3&quot;,&quot;html&quot;:&quot;https://github.com/thewildwestmidis/midis/blob/main/Abide%20with%20Me.mid&quot;}}">
+                Favorite
+            </button>
+        </li><li>
+            <div class="divmidiinfo">
+                <p class="midiname"><a href="/midi?m=Accumela%20Town%20(Furret%20Walk).mid" style="color: inherit; text-decoration: none;">Accumela Town (Furret Walk)</a></p>
+                <p class="duration">1 min, 04 sec</p>
+            </div>
+            <button class="play-button" data-url="https://raw.githubusercontent.com/thewildwestmidis/midis/main/Accumela%20Town%20(Furret%20Walk).mid">►</button>
+            <div class="PlayMusicPos"></div>
+            <button class="copy-button" data-url="https://thewildwestmidis.github.io/midis/Accumela%20Town%20(Furret%20Walk).mid">Copy Midi Data</button>
+            <button class="favorite-button" data-file="{&quot;name&quot;:&quot;Accumela Town (Furret Walk).mid&quot;,&quot;path&quot;:&quot;Accumela Town (Furret Walk).mid&quot;,&quot;sha&quot;:&quot;5b19ab320c4871dad6bd219c6c072ca1fc7c9415&quot;,&quot;size&quot;:5785,&quot;url&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/contents/Accumela%20Town%20(Furret%20Walk).mid?ref=main&quot;,&quot;html_url&quot;:&quot;https://github.com/thewildwestmidis/midis/blob/main/Accumela%20Town%20(Furret%20Walk).mid&quot;,&quot;git_url&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/git/blobs/5b19ab320c4871dad6bd219c6c072ca1fc7c9415&quot;,&quot;download_url&quot;:&quot;https://raw.githubusercontent.com/thewildwestmidis/midis/main/Accumela%20Town%20(Furret%20Walk).mid&quot;,&quot;type&quot;:&quot;file&quot;,&quot;_links&quot;:{&quot;self&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/contents/Accumela%20Town%20(Furret%20Walk).mid?ref=main&quot;,&quot;git&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/git/blobs/5b19ab320c4871dad6bd219c6c072ca1fc7c9415&quot;,&quot;html&quot;:&quot;https://github.com/thewildwestmidis/midis/blob/main/Accumela%20Town%20(Furret%20Walk).mid&quot;}}">
+                Favorite
+            </button>
+        </li><li>
+            <div class="divmidiinfo">
+                <p class="midiname"><a href="/midi?m=Adam%20ondi%20Ahman.mid" style="color: inherit; text-decoration: none;">Adam ondi Ahman</a></p>
+                <p class="duration">1 min, 44 sec</p>
+            </div>
+            <button class="play-button" data-url="https://raw.githubusercontent.com/thewildwestmidis/midis/main/Adam%20ondi%20Ahman.mid">►</button>
+            <div class="PlayMusicPos"></div>
+            <button class="copy-button" data-url="https://thewildwestmidis.github.io/midis/Adam%20ondi%20Ahman.mid">Copy Midi Data</button>
+            <button class="favorite-button" data-file="{&quot;name&quot;:&quot;Adam ondi Ahman.mid&quot;,&quot;path&quot;:&quot;Adam ondi Ahman.mid&quot;,&quot;sha&quot;:&quot;3159dc9fb88fefd1245565d2e295326dce4da17e&quot;,&quot;size&quot;:5040,&quot;url&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/contents/Adam%20ondi%20Ahman.mid?ref=main&quot;,&quot;html_url&quot;:&quot;https://github.com/thewildwestmidis/midis/blob/main/Adam%20ondi%20Ahman.mid&quot;,&quot;git_url&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/git/blobs/3159dc9fb88fefd1245565d2e295326dce4da17e&quot;,&quot;download_url&quot;:&quot;https://raw.githubusercontent.com/thewildwestmidis/midis/main/Adam%20ondi%20Ahman.mid&quot;,&quot;type&quot;:&quot;file&quot;,&quot;_links&quot;:{&quot;self&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/contents/Adam%20ondi%20Ahman.mid?ref=main&quot;,&quot;git&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/git/blobs/3159dc9fb88fefd1245565d2e295326dce4da17e&quot;,&quot;html&quot;:&quot;https://github.com/thewildwestmidis/midis/blob/main/Adam%20ondi%20Ahman.mid&quot;}}">
+                Favorite
+            </button>
+        </li><li>
+            <div class="divmidiinfo">
+                <p class="midiname"><a href="/midi?m=Again%20Our%20Dear%20Redeeming%20Lord.mid" style="color: inherit; text-decoration: none;">Again Our Dear Redeeming Lord</a></p>
+                <p class="duration">2 min, 24 sec</p>
+            </div>
+            <button class="play-button" data-url="https://raw.githubusercontent.com/thewildwestmidis/midis/main/Again%20Our%20Dear%20Redeeming%20Lord.mid">►</button>
+            <div class="PlayMusicPos"></div>
+            <button class="copy-button" data-url="https://thewildwestmidis.github.io/midis/Again%20Our%20Dear%20Redeeming%20Lord.mid">Copy Midi Data</button>
+            <button class="favorite-button" data-file="{&quot;name&quot;:&quot;Again Our Dear Redeeming Lord.mid&quot;,&quot;path&quot;:&quot;Again Our Dear Redeeming Lord.mid&quot;,&quot;sha&quot;:&quot;4dbe95c5b365b612d80ad9742e0a39da4f8d1706&quot;,&quot;size&quot;:4617,&quot;url&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/contents/Again%20Our%20Dear%20Redeeming%20Lord.mid?ref=main&quot;,&quot;html_url&quot;:&quot;https://github.com/thewildwestmidis/midis/blob/main/Again%20Our%20Dear%20Redeeming%20Lord.mid&quot;,&quot;git_url&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/git/blobs/4dbe95c5b365b612d80ad9742e0a39da4f8d1706&quot;,&quot;download_url&quot;:&quot;https://raw.githubusercontent.com/thewildwestmidis/midis/main/Again%20Our%20Dear%20Redeeming%20Lord.mid&quot;,&quot;type&quot;:&quot;file&quot;,&quot;_links&quot;:{&quot;self&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/contents/Again%20Our%20Dear%20Redeeming%20Lord.mid?ref=main&quot;,&quot;git&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/git/blobs/4dbe95c5b365b612d80ad9742e0a39da4f8d1706&quot;,&quot;html&quot;:&quot;https://github.com/thewildwestmidis/midis/blob/main/Again%20Our%20Dear%20Redeeming%20Lord.mid&quot;}}">
+                Favorite
+            </button>
+        </li><li>
+            <div class="divmidiinfo">
+                <p class="midiname"><a href="/midi?m=Again%20We%20Meet%20Around%20Board.mid" style="color: inherit; text-decoration: none;">Again We Meet Around Board</a></p>
+                <p class="duration">2 min, 42 sec</p>
+            </div>
+            <button class="play-button" data-url="https://raw.githubusercontent.com/thewildwestmidis/midis/main/Again%20We%20Meet%20Around%20Board.mid">►</button>
+            <div class="PlayMusicPos"></div>
+            <button class="copy-button" data-url="https://thewildwestmidis.github.io/midis/Again%20We%20Meet%20Around%20Board.mid">Copy Midi Data</button>
+            <button class="favorite-button" data-file="{&quot;name&quot;:&quot;Again We Meet Around Board.mid&quot;,&quot;path&quot;:&quot;Again We Meet Around Board.mid&quot;,&quot;sha&quot;:&quot;5419310429f632994d020249de88793225bd67e9&quot;,&quot;size&quot;:5144,&quot;url&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/contents/Again%20We%20Meet%20Around%20Board.mid?ref=main&quot;,&quot;html_url&quot;:&quot;https://github.com/thewildwestmidis/midis/blob/main/Again%20We%20Meet%20Around%20Board.mid&quot;,&quot;git_url&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/git/blobs/5419310429f632994d020249de88793225bd67e9&quot;,&quot;download_url&quot;:&quot;https://raw.githubusercontent.com/thewildwestmidis/midis/main/Again%20We%20Meet%20Around%20Board.mid&quot;,&quot;type&quot;:&quot;file&quot;,&quot;_links&quot;:{&quot;self&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/contents/Again%20We%20Meet%20Around%20Board.mid?ref=main&quot;,&quot;git&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/git/blobs/5419310429f632994d020249de88793225bd67e9&quot;,&quot;html&quot;:&quot;https://github.com/thewildwestmidis/midis/blob/main/Again%20We%20Meet%20Around%20Board.mid&quot;}}">
+                Favorite
+            </button>
+        </li><li>
+            <div class="divmidiinfo">
+                <p class="midiname"><a href="/midi?m=All%20Glory%20Laud%20and%20Honor.mid" style="color: inherit; text-decoration: none;">All Glory Laud and Honor</a></p>
+                <p class="duration">2 min, 09 sec</p>
+            </div>
+            <button class="play-button" data-url="https://raw.githubusercontent.com/thewildwestmidis/midis/main/All%20Glory%20Laud%20and%20Honor.mid">►</button>
+            <div class="PlayMusicPos"></div>
+            <button class="copy-button" data-url="https://thewildwestmidis.github.io/midis/All%20Glory%20Laud%20and%20Honor.mid">Copy Midi Data</button>
+            <button class="favorite-button" data-file="{&quot;name&quot;:&quot;All Glory Laud and Honor.mid&quot;,&quot;path&quot;:&quot;All Glory Laud and Honor.mid&quot;,&quot;sha&quot;:&quot;e6e7f989d0cb2ead52788422609eac2e07926d62&quot;,&quot;size&quot;:5957,&quot;url&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/contents/All%20Glory%20Laud%20and%20Honor.mid?ref=main&quot;,&quot;html_url&quot;:&quot;https://github.com/thewildwestmidis/midis/blob/main/All%20Glory%20Laud%20and%20Honor.mid&quot;,&quot;git_url&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/git/blobs/e6e7f989d0cb2ead52788422609eac2e07926d62&quot;,&quot;download_url&quot;:&quot;https://raw.githubusercontent.com/thewildwestmidis/midis/main/All%20Glory%20Laud%20and%20Honor.mid&quot;,&quot;type&quot;:&quot;file&quot;,&quot;_links&quot;:{&quot;self&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/contents/All%20Glory%20Laud%20and%20Honor.mid?ref=main&quot;,&quot;git&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/git/blobs/e6e7f989d0cb2ead52788422609eac2e07926d62&quot;,&quot;html&quot;:&quot;https://github.com/thewildwestmidis/midis/blob/main/All%20Glory%20Laud%20and%20Honor.mid&quot;}}">
+                Favorite
+            </button>
+        </li><li>
+            <div class="divmidiinfo">
+                <p class="midiname"><a href="/midi?m=All%20Star.mid" style="color: inherit; text-decoration: none;">All Star</a></p>
+                <p class="duration">3 min, 16 sec</p>
+            </div>
+            <button class="play-button" data-url="https://raw.githubusercontent.com/thewildwestmidis/midis/main/All%20Star.mid">►</button>
+            <div class="PlayMusicPos"></div>
+            <button class="copy-button" data-url="https://thewildwestmidis.github.io/midis/All%20Star.mid">Copy Midi Data</button>
+            <button class="favorite-button" data-file="{&quot;name&quot;:&quot;All Star.mid&quot;,&quot;path&quot;:&quot;All Star.mid&quot;,&quot;sha&quot;:&quot;669f7af0347e14208dab90159c21dd6205f2e801&quot;,&quot;size&quot;:11356,&quot;url&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/contents/All%20Star.mid?ref=main&quot;,&quot;html_url&quot;:&quot;https://github.com/thewildwestmidis/midis/blob/main/All%20Star.mid&quot;,&quot;git_url&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/git/blobs/669f7af0347e14208dab90159c21dd6205f2e801&quot;,&quot;download_url&quot;:&quot;https://raw.githubusercontent.com/thewildwestmidis/midis/main/All%20Star.mid&quot;,&quot;type&quot;:&quot;file&quot;,&quot;_links&quot;:{&quot;self&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/contents/All%20Star.mid?ref=main&quot;,&quot;git&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/git/blobs/669f7af0347e14208dab90159c21dd6205f2e801&quot;,&quot;html&quot;:&quot;https://github.com/thewildwestmidis/midis/blob/main/All%20Star.mid&quot;}}">
+                Favorite
+            </button>
+        </li><li>
+            <div class="divmidiinfo">
+                <p class="midiname"><a href="/midi?m=Alte-Kameraden.mid" style="color: inherit; text-decoration: none;">Alte Kameraden</a></p>
+                <p class="duration">4 min, 30 sec</p>
+            </div>
+            <button class="play-button" data-url="https://raw.githubusercontent.com/thewildwestmidis/midis/main/Alte-Kameraden.mid">►</button>
+            <div class="PlayMusicPos"></div>
+            <button class="copy-button" data-url="https://thewildwestmidis.github.io/midis/Alte-Kameraden.mid">Copy Midi Data</button>
+            <button class="favorite-button" data-file="{&quot;name&quot;:&quot;Alte-Kameraden.mid&quot;,&quot;path&quot;:&quot;Alte-Kameraden.mid&quot;,&quot;sha&quot;:&quot;c064f8cfea8362c3bcdcb88c6f9a10ac25a412ed&quot;,&quot;size&quot;:91290,&quot;url&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/contents/Alte-Kameraden.mid?ref=main&quot;,&quot;html_url&quot;:&quot;https://github.com/thewildwestmidis/midis/blob/main/Alte-Kameraden.mid&quot;,&quot;git_url&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/git/blobs/c064f8cfea8362c3bcdcb88c6f9a10ac25a412ed&quot;,&quot;download_url&quot;:&quot;https://raw.githubusercontent.com/thewildwestmidis/midis/main/Alte-Kameraden.mid&quot;,&quot;type&quot;:&quot;file&quot;,&quot;_links&quot;:{&quot;self&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/contents/Alte-Kameraden.mid?ref=main&quot;,&quot;git&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/git/blobs/c064f8cfea8362c3bcdcb88c6f9a10ac25a412ed&quot;,&quot;html&quot;:&quot;https://github.com/thewildwestmidis/midis/blob/main/Alte-Kameraden.mid&quot;}}">
+                Favorite
+            </button>
+        </li><li>
+            <div class="divmidiinfo">
+                <p class="midiname"><a href="/midi?m=America%20the%20Beautiful.mid" style="color: inherit; text-decoration: none;">America the Beautiful</a></p>
+                <p class="duration">3 min, 08 sec</p>
+            </div>
+            <button class="play-button" data-url="https://raw.githubusercontent.com/thewildwestmidis/midis/main/America%20the%20Beautiful.mid">►</button>
+            <div class="PlayMusicPos"></div>
+            <button class="copy-button" data-url="https://thewildwestmidis.github.io/midis/America%20the%20Beautiful.mid">Copy Midi Data</button>
+            <button class="favorite-button" data-file="{&quot;name&quot;:&quot;America the Beautiful.mid&quot;,&quot;path&quot;:&quot;America the Beautiful.mid&quot;,&quot;sha&quot;:&quot;a68f4197549edff4051d6fd2e2bfe81b7eb1ebc8&quot;,&quot;size&quot;:7883,&quot;url&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/contents/America%20the%20Beautiful.mid?ref=main&quot;,&quot;html_url&quot;:&quot;https://github.com/thewildwestmidis/midis/blob/main/America%20the%20Beautiful.mid&quot;,&quot;git_url&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/git/blobs/a68f4197549edff4051d6fd2e2bfe81b7eb1ebc8&quot;,&quot;download_url&quot;:&quot;https://raw.githubusercontent.com/thewildwestmidis/midis/main/America%20the%20Beautiful.mid&quot;,&quot;type&quot;:&quot;file&quot;,&quot;_links&quot;:{&quot;self&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/contents/America%20the%20Beautiful.mid?ref=main&quot;,&quot;git&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/git/blobs/a68f4197549edff4051d6fd2e2bfe81b7eb1ebc8&quot;,&quot;html&quot;:&quot;https://github.com/thewildwestmidis/midis/blob/main/America%20the%20Beautiful.mid&quot;}}">
+                Favorite
+            </button>
+        </li><li>
+            <div class="divmidiinfo">
+                <p class="midiname"><a href="/midi?m=An%20Angel%20from%20on%20High%20mens%20choir.mid" style="color: inherit; text-decoration: none;">An Angel from on High mens choir</a></p>
+                <p class="duration">4 min, 13 sec</p>
+            </div>
+            <button class="play-button" data-url="https://raw.githubusercontent.com/thewildwestmidis/midis/main/An%20Angel%20from%20on%20High%20mens%20choir.mid">►</button>
+            <div class="PlayMusicPos"></div>
+            <button class="copy-button" data-url="https://thewildwestmidis.github.io/midis/An%20Angel%20from%20on%20High%20mens%20choir.mid">Copy Midi Data</button>
+            <button class="favorite-button" data-file="{&quot;name&quot;:&quot;An Angel from on High mens choir.mid&quot;,&quot;path&quot;:&quot;An Angel from on High mens choir.mid&quot;,&quot;sha&quot;:&quot;10f2326d6836fbff71ffbfbe428b1fe5ecce82ab&quot;,&quot;size&quot;:9371,&quot;url&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/contents/An%20Angel%20from%20on%20High%20mens%20choir.mid?ref=main&quot;,&quot;html_url&quot;:&quot;https://github.com/thewildwestmidis/midis/blob/main/An%20Angel%20from%20on%20High%20mens%20choir.mid&quot;,&quot;git_url&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/git/blobs/10f2326d6836fbff71ffbfbe428b1fe5ecce82ab&quot;,&quot;download_url&quot;:&quot;https://raw.githubusercontent.com/thewildwestmidis/midis/main/An%20Angel%20from%20on%20High%20mens%20choir.mid&quot;,&quot;type&quot;:&quot;file&quot;,&quot;_links&quot;:{&quot;self&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/contents/An%20Angel%20from%20on%20High%20mens%20choir.mid?ref=main&quot;,&quot;git&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/git/blobs/10f2326d6836fbff71ffbfbe428b1fe5ecce82ab&quot;,&quot;html&quot;:&quot;https://github.com/thewildwestmidis/midis/blob/main/An%20Angel%20from%20on%20High%20mens%20choir.mid&quot;}}">
+                Favorite
+            </button>
+        </li><li>
+            <div class="divmidiinfo">
+                <p class="midiname"><a href="/midi?m=An%20Angel%20from%20on%20High.mid" style="color: inherit; text-decoration: none;">An Angel from on High</a></p>
+                <p class="duration">2 min, 48 sec</p>
+            </div>
+            <button class="play-button" data-url="https://raw.githubusercontent.com/thewildwestmidis/midis/main/An%20Angel%20from%20on%20High.mid">►</button>
+            <div class="PlayMusicPos"></div>
+            <button class="copy-button" data-url="https://thewildwestmidis.github.io/midis/An%20Angel%20from%20on%20High.mid">Copy Midi Data</button>
+            <button class="favorite-button" data-file="{&quot;name&quot;:&quot;An Angel from on High.mid&quot;,&quot;path&quot;:&quot;An Angel from on High.mid&quot;,&quot;sha&quot;:&quot;85cc242f16f5220142b2ebcd98092f03794bf71f&quot;,&quot;size&quot;:8217,&quot;url&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/contents/An%20Angel%20from%20on%20High.mid?ref=main&quot;,&quot;html_url&quot;:&quot;https://github.com/thewildwestmidis/midis/blob/main/An%20Angel%20from%20on%20High.mid&quot;,&quot;git_url&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/git/blobs/85cc242f16f5220142b2ebcd98092f03794bf71f&quot;,&quot;download_url&quot;:&quot;https://raw.githubusercontent.com/thewildwestmidis/midis/main/An%20Angel%20from%20on%20High.mid&quot;,&quot;type&quot;:&quot;file&quot;,&quot;_links&quot;:{&quot;self&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/contents/An%20Angel%20from%20on%20High.mid?ref=main&quot;,&quot;git&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/git/blobs/85cc242f16f5220142b2ebcd98092f03794bf71f&quot;,&quot;html&quot;:&quot;https://github.com/thewildwestmidis/midis/blob/main/An%20Angel%20from%20on%20High.mid&quot;}}">
+                Favorite
+            </button>
+        </li><li>
+            <div class="divmidiinfo">
+                <p class="midiname"><a href="/midi?m=Angels%20We%20Have%20Heard%20on%20High.mid" style="color: inherit; text-decoration: none;">Angels We Have Heard on High</a></p>
+                <p class="duration">2 min, 29 sec</p>
+            </div>
+            <button class="play-button" data-url="https://raw.githubusercontent.com/thewildwestmidis/midis/main/Angels%20We%20Have%20Heard%20on%20High.mid">►</button>
+            <div class="PlayMusicPos"></div>
+            <button class="copy-button" data-url="https://thewildwestmidis.github.io/midis/Angels%20We%20Have%20Heard%20on%20High.mid">Copy Midi Data</button>
+            <button class="favorite-button" data-file="{&quot;name&quot;:&quot;Angels We Have Heard on High.mid&quot;,&quot;path&quot;:&quot;Angels We Have Heard on High.mid&quot;,&quot;sha&quot;:&quot;55151cafa9239f34baeabb4d8b8cff76c7646bf1&quot;,&quot;size&quot;:6873,&quot;url&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/contents/Angels%20We%20Have%20Heard%20on%20High.mid?ref=main&quot;,&quot;html_url&quot;:&quot;https://github.com/thewildwestmidis/midis/blob/main/Angels%20We%20Have%20Heard%20on%20High.mid&quot;,&quot;git_url&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/git/blobs/55151cafa9239f34baeabb4d8b8cff76c7646bf1&quot;,&quot;download_url&quot;:&quot;https://raw.githubusercontent.com/thewildwestmidis/midis/main/Angels%20We%20Have%20Heard%20on%20High.mid&quot;,&quot;type&quot;:&quot;file&quot;,&quot;_links&quot;:{&quot;self&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/contents/Angels%20We%20Have%20Heard%20on%20High.mid?ref=main&quot;,&quot;git&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/git/blobs/55151cafa9239f34baeabb4d8b8cff76c7646bf1&quot;,&quot;html&quot;:&quot;https://github.com/thewildwestmidis/midis/blob/main/Angels%20We%20Have%20Heard%20on%20High.mid&quot;}}">
+                Favorite
+            </button>
+        </li><li>
+            <div class="divmidiinfo">
+                <p class="midiname"><a href="/midi?m=Animals.mid" style="color: inherit; text-decoration: none;">Animals</a></p>
+                <p class="duration">3 min, 59 sec</p>
+            </div>
+            <button class="play-button" data-url="https://raw.githubusercontent.com/thewildwestmidis/midis/main/Animals.mid">►</button>
+            <div class="PlayMusicPos"></div>
+            <button class="copy-button" data-url="https://thewildwestmidis.github.io/midis/Animals.mid">Copy Midi Data</button>
+            <button class="favorite-button" data-file="{&quot;name&quot;:&quot;Animals.mid&quot;,&quot;path&quot;:&quot;Animals.mid&quot;,&quot;sha&quot;:&quot;75b4023e3611278b9b345701ff99c969701f78d9&quot;,&quot;size&quot;:39616,&quot;url&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/contents/Animals.mid?ref=main&quot;,&quot;html_url&quot;:&quot;https://github.com/thewildwestmidis/midis/blob/main/Animals.mid&quot;,&quot;git_url&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/git/blobs/75b4023e3611278b9b345701ff99c969701f78d9&quot;,&quot;download_url&quot;:&quot;https://raw.githubusercontent.com/thewildwestmidis/midis/main/Animals.mid&quot;,&quot;type&quot;:&quot;file&quot;,&quot;_links&quot;:{&quot;self&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/contents/Animals.mid?ref=main&quot;,&quot;git&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/git/blobs/75b4023e3611278b9b345701ff99c969701f78d9&quot;,&quot;html&quot;:&quot;https://github.com/thewildwestmidis/midis/blob/main/Animals.mid&quot;}}">
+                Favorite
+            </button>
+        </li><li>
+            <div class="divmidiinfo">
+                <p class="midiname"><a href="/midi?m=Arctic_Monkeys_-_Do_I_Wanna_Know.mid" style="color: inherit; text-decoration: none;">Arctic Monkeys - Do I Wanna Know</a></p>
+                <p class="duration">4 min, 29 sec</p>
+            </div>
+            <button class="play-button" data-url="https://raw.githubusercontent.com/thewildwestmidis/midis/main/Arctic_Monkeys_-_Do_I_Wanna_Know.mid">►</button>
+            <div class="PlayMusicPos"></div>
+            <button class="copy-button" data-url="https://thewildwestmidis.github.io/midis/Arctic_Monkeys_-_Do_I_Wanna_Know.mid">Copy Midi Data</button>
+            <button class="favorite-button" data-file="{&quot;name&quot;:&quot;Arctic_Monkeys_-_Do_I_Wanna_Know.mid&quot;,&quot;path&quot;:&quot;Arctic_Monkeys_-_Do_I_Wanna_Know.mid&quot;,&quot;sha&quot;:&quot;f5e49e04b4135bc8e8c4d02db0435b7359e21c63&quot;,&quot;size&quot;:20182,&quot;url&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/contents/Arctic_Monkeys_-_Do_I_Wanna_Know.mid?ref=main&quot;,&quot;html_url&quot;:&quot;https://github.com/thewildwestmidis/midis/blob/main/Arctic_Monkeys_-_Do_I_Wanna_Know.mid&quot;,&quot;git_url&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/git/blobs/f5e49e04b4135bc8e8c4d02db0435b7359e21c63&quot;,&quot;download_url&quot;:&quot;https://raw.githubusercontent.com/thewildwestmidis/midis/main/Arctic_Monkeys_-_Do_I_Wanna_Know.mid&quot;,&quot;type&quot;:&quot;file&quot;,&quot;_links&quot;:{&quot;self&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/contents/Arctic_Monkeys_-_Do_I_Wanna_Know.mid?ref=main&quot;,&quot;git&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/git/blobs/f5e49e04b4135bc8e8c4d02db0435b7359e21c63&quot;,&quot;html&quot;:&quot;https://github.com/thewildwestmidis/midis/blob/main/Arctic_Monkeys_-_Do_I_Wanna_Know.mid&quot;}}">
+                Favorite
+            </button>
+        </li><li>
+            <div class="divmidiinfo">
+                <p class="midiname"><a href="/midi?m=Arise%20O%20Glorious%20Zion.mid" style="color: inherit; text-decoration: none;">Arise O Glorious Zion</a></p>
+                <p class="duration">2 min, 46 sec</p>
+            </div>
+            <button class="play-button" data-url="https://raw.githubusercontent.com/thewildwestmidis/midis/main/Arise%20O%20Glorious%20Zion.mid">►</button>
+            <div class="PlayMusicPos"></div>
+            <button class="copy-button" data-url="https://thewildwestmidis.github.io/midis/Arise%20O%20Glorious%20Zion.mid">Copy Midi Data</button>
+            <button class="favorite-button" data-file="{&quot;name&quot;:&quot;Arise O Glorious Zion.mid&quot;,&quot;path&quot;:&quot;Arise O Glorious Zion.mid&quot;,&quot;sha&quot;:&quot;06f20e2c684a25470bb170c3722bd595b723ad6c&quot;,&quot;size&quot;:7770,&quot;url&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/contents/Arise%20O%20Glorious%20Zion.mid?ref=main&quot;,&quot;html_url&quot;:&quot;https://github.com/thewildwestmidis/midis/blob/main/Arise%20O%20Glorious%20Zion.mid&quot;,&quot;git_url&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/git/blobs/06f20e2c684a25470bb170c3722bd595b723ad6c&quot;,&quot;download_url&quot;:&quot;https://raw.githubusercontent.com/thewildwestmidis/midis/main/Arise%20O%20Glorious%20Zion.mid&quot;,&quot;type&quot;:&quot;file&quot;,&quot;_links&quot;:{&quot;self&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/contents/Arise%20O%20Glorious%20Zion.mid?ref=main&quot;,&quot;git&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/git/blobs/06f20e2c684a25470bb170c3722bd595b723ad6c&quot;,&quot;html&quot;:&quot;https://github.com/thewildwestmidis/midis/blob/main/Arise%20O%20Glorious%20Zion.mid&quot;}}">
+                Favorite
+            </button>
+        </li><li>
+            <div class="divmidiinfo">
+                <p class="midiname"><a href="/midi?m=Arise%20O%20God%20and%20Shine.mid" style="color: inherit; text-decoration: none;">Arise O God and Shine</a></p>
+                <p class="duration">2 min, 16 sec</p>
+            </div>
+            <button class="play-button" data-url="https://raw.githubusercontent.com/thewildwestmidis/midis/main/Arise%20O%20God%20and%20Shine.mid">►</button>
+            <div class="PlayMusicPos"></div>
+            <button class="copy-button" data-url="https://thewildwestmidis.github.io/midis/Arise%20O%20God%20and%20Shine.mid">Copy Midi Data</button>
+            <button class="favorite-button" data-file="{&quot;name&quot;:&quot;Arise O God and Shine.mid&quot;,&quot;path&quot;:&quot;Arise O God and Shine.mid&quot;,&quot;sha&quot;:&quot;a1dab87d4a340d30dfb876888d168d3be100b07b&quot;,&quot;size&quot;:5792,&quot;url&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/contents/Arise%20O%20God%20and%20Shine.mid?ref=main&quot;,&quot;html_url&quot;:&quot;https://github.com/thewildwestmidis/midis/blob/main/Arise%20O%20God%20and%20Shine.mid&quot;,&quot;git_url&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/git/blobs/a1dab87d4a340d30dfb876888d168d3be100b07b&quot;,&quot;download_url&quot;:&quot;https://raw.githubusercontent.com/thewildwestmidis/midis/main/Arise%20O%20God%20and%20Shine.mid&quot;,&quot;type&quot;:&quot;file&quot;,&quot;_links&quot;:{&quot;self&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/contents/Arise%20O%20God%20and%20Shine.mid?ref=main&quot;,&quot;git&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/git/blobs/a1dab87d4a340d30dfb876888d168d3be100b07b&quot;,&quot;html&quot;:&quot;https://github.com/thewildwestmidis/midis/blob/main/Arise%20O%20God%20and%20Shine.mid&quot;}}">
+                Favorite
+            </button>
+        </li><li>
+            <div class="divmidiinfo">
+                <p class="midiname"><a href="/midi?m=Armory%20Arabesque%20(Pixel-Phil).mid" style="color: inherit; text-decoration: none;">Armory Arabesque (Pixel Phil)</a></p>
+                <p class="duration">1 min, 06 sec</p>
+            </div>
+            <button class="play-button" data-url="https://raw.githubusercontent.com/thewildwestmidis/midis/main/Armory%20Arabesque%20(Pixel-Phil).mid">►</button>
+            <div class="PlayMusicPos"></div>
+            <button class="copy-button" data-url="https://thewildwestmidis.github.io/midis/Armory%20Arabesque%20(Pixel-Phil).mid">Copy Midi Data</button>
+            <button class="favorite-button" data-file="{&quot;name&quot;:&quot;Armory Arabesque (Pixel-Phil).mid&quot;,&quot;path&quot;:&quot;Armory Arabesque (Pixel-Phil).mid&quot;,&quot;sha&quot;:&quot;cc1ce563dcdcfb26fbfd3f8c6bedb15546e49bdb&quot;,&quot;size&quot;:2861,&quot;url&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/contents/Armory%20Arabesque%20(Pixel-Phil).mid?ref=main&quot;,&quot;html_url&quot;:&quot;https://github.com/thewildwestmidis/midis/blob/main/Armory%20Arabesque%20(Pixel-Phil).mid&quot;,&quot;git_url&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/git/blobs/cc1ce563dcdcfb26fbfd3f8c6bedb15546e49bdb&quot;,&quot;download_url&quot;:&quot;https://raw.githubusercontent.com/thewildwestmidis/midis/main/Armory%20Arabesque%20(Pixel-Phil).mid&quot;,&quot;type&quot;:&quot;file&quot;,&quot;_links&quot;:{&quot;self&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/contents/Armory%20Arabesque%20(Pixel-Phil).mid?ref=main&quot;,&quot;git&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/git/blobs/cc1ce563dcdcfb26fbfd3f8c6bedb15546e49bdb&quot;,&quot;html&quot;:&quot;https://github.com/thewildwestmidis/midis/blob/main/Armory%20Arabesque%20(Pixel-Phil).mid&quot;}}">
+                Favorite
+            </button>
+        </li><li>
+            <div class="divmidiinfo">
+                <p class="midiname"><a href="/midi?m=As%20I%20Search%20the%20Holy%20Scriptures.mid" style="color: inherit; text-decoration: none;">As I Search the Holy Scriptures</a></p>
+                <p class="duration">2 min, 05 sec</p>
+            </div>
+            <button class="play-button" data-url="https://raw.githubusercontent.com/thewildwestmidis/midis/main/As%20I%20Search%20the%20Holy%20Scriptures.mid">►</button>
+            <div class="PlayMusicPos"></div>
+            <button class="copy-button" data-url="https://thewildwestmidis.github.io/midis/As%20I%20Search%20the%20Holy%20Scriptures.mid">Copy Midi Data</button>
+            <button class="favorite-button" data-file="{&quot;name&quot;:&quot;As I Search the Holy Scriptures.mid&quot;,&quot;path&quot;:&quot;As I Search the Holy Scriptures.mid&quot;,&quot;sha&quot;:&quot;ec213a873e16193c058b1b6bd1041066f7463e5f&quot;,&quot;size&quot;:4831,&quot;url&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/contents/As%20I%20Search%20the%20Holy%20Scriptures.mid?ref=main&quot;,&quot;html_url&quot;:&quot;https://github.com/thewildwestmidis/midis/blob/main/As%20I%20Search%20the%20Holy%20Scriptures.mid&quot;,&quot;git_url&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/git/blobs/ec213a873e16193c058b1b6bd1041066f7463e5f&quot;,&quot;download_url&quot;:&quot;https://raw.githubusercontent.com/thewildwestmidis/midis/main/As%20I%20Search%20the%20Holy%20Scriptures.mid&quot;,&quot;type&quot;:&quot;file&quot;,&quot;_links&quot;:{&quot;self&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/contents/As%20I%20Search%20the%20Holy%20Scriptures.mid?ref=main&quot;,&quot;git&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/git/blobs/ec213a873e16193c058b1b6bd1041066f7463e5f&quot;,&quot;html&quot;:&quot;https://github.com/thewildwestmidis/midis/blob/main/As%20I%20Search%20the%20Holy%20Scriptures.mid&quot;}}">
+                Favorite
+            </button>
+        </li><li>
+            <div class="divmidiinfo">
+                <p class="midiname"><a href="/midi?m=As%20Sisters%20in%20Zion%20women.mid" style="color: inherit; text-decoration: none;">As Sisters in Zion women</a></p>
+                <p class="duration">1 min, 43 sec</p>
+            </div>
+            <button class="play-button" data-url="https://raw.githubusercontent.com/thewildwestmidis/midis/main/As%20Sisters%20in%20Zion%20women.mid">►</button>
+            <div class="PlayMusicPos"></div>
+            <button class="copy-button" data-url="https://thewildwestmidis.github.io/midis/As%20Sisters%20in%20Zion%20women.mid">Copy Midi Data</button>
+            <button class="favorite-button" data-file="{&quot;name&quot;:&quot;As Sisters in Zion women.mid&quot;,&quot;path&quot;:&quot;As Sisters in Zion women.mid&quot;,&quot;sha&quot;:&quot;58d07f7a7042f0e36ed1f1b61d6003b4f8b927de&quot;,&quot;size&quot;:4030,&quot;url&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/contents/As%20Sisters%20in%20Zion%20women.mid?ref=main&quot;,&quot;html_url&quot;:&quot;https://github.com/thewildwestmidis/midis/blob/main/As%20Sisters%20in%20Zion%20women.mid&quot;,&quot;git_url&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/git/blobs/58d07f7a7042f0e36ed1f1b61d6003b4f8b927de&quot;,&quot;download_url&quot;:&quot;https://raw.githubusercontent.com/thewildwestmidis/midis/main/As%20Sisters%20in%20Zion%20women.mid&quot;,&quot;type&quot;:&quot;file&quot;,&quot;_links&quot;:{&quot;self&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/contents/As%20Sisters%20in%20Zion%20women.mid?ref=main&quot;,&quot;git&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/git/blobs/58d07f7a7042f0e36ed1f1b61d6003b4f8b927de&quot;,&quot;html&quot;:&quot;https://github.com/thewildwestmidis/midis/blob/main/As%20Sisters%20in%20Zion%20women.mid&quot;}}">
+                Favorite
+            </button>
+        </li><li>
+            <div class="divmidiinfo">
+                <p class="midiname"><a href="/midi?m=As%20the%20Dew%20from%20Heaven%20Distilling.mid" style="color: inherit; text-decoration: none;">As the Dew from Heaven Distilling</a></p>
+                <p class="duration">3 min, 16 sec</p>
+            </div>
+            <button class="play-button" data-url="https://raw.githubusercontent.com/thewildwestmidis/midis/main/As%20the%20Dew%20from%20Heaven%20Distilling.mid">►</button>
+            <div class="PlayMusicPos"></div>
+            <button class="copy-button" data-url="https://thewildwestmidis.github.io/midis/As%20the%20Dew%20from%20Heaven%20Distilling.mid">Copy Midi Data</button>
+            <button class="favorite-button" data-file="{&quot;name&quot;:&quot;As the Dew from Heaven Distilling.mid&quot;,&quot;path&quot;:&quot;As the Dew from Heaven Distilling.mid&quot;,&quot;sha&quot;:&quot;cafc0f468a9cc5c509e6c84b993830d02a33119f&quot;,&quot;size&quot;:5002,&quot;url&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/contents/As%20the%20Dew%20from%20Heaven%20Distilling.mid?ref=main&quot;,&quot;html_url&quot;:&quot;https://github.com/thewildwestmidis/midis/blob/main/As%20the%20Dew%20from%20Heaven%20Distilling.mid&quot;,&quot;git_url&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/git/blobs/cafc0f468a9cc5c509e6c84b993830d02a33119f&quot;,&quot;download_url&quot;:&quot;https://raw.githubusercontent.com/thewildwestmidis/midis/main/As%20the%20Dew%20from%20Heaven%20Distilling.mid&quot;,&quot;type&quot;:&quot;file&quot;,&quot;_links&quot;:{&quot;self&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/contents/As%20the%20Dew%20from%20Heaven%20Distilling.mid?ref=main&quot;,&quot;git&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/git/blobs/cafc0f468a9cc5c509e6c84b993830d02a33119f&quot;,&quot;html&quot;:&quot;https://github.com/thewildwestmidis/midis/blob/main/As%20the%20Dew%20from%20Heaven%20Distilling.mid&quot;}}">
+                Favorite
+            </button>
+        </li><li>
+            <div class="divmidiinfo">
+                <p class="midiname"><a href="/midi?m=Ashes_-_Stellar.mid" style="color: inherit; text-decoration: none;">Ashes - Stellar</a></p>
+                <p class="duration">2 min, 43 sec</p>
+            </div>
+            <button class="play-button" data-url="https://raw.githubusercontent.com/thewildwestmidis/midis/main/Ashes_-_Stellar.mid">►</button>
+            <div class="PlayMusicPos"></div>
+            <button class="copy-button" data-url="https://thewildwestmidis.github.io/midis/Ashes_-_Stellar.mid">Copy Midi Data</button>
+            <button class="favorite-button" data-file="{&quot;name&quot;:&quot;Ashes_-_Stellar.mid&quot;,&quot;path&quot;:&quot;Ashes_-_Stellar.mid&quot;,&quot;sha&quot;:&quot;4fbb1070d1892c856417a132e7dee0f21d19e816&quot;,&quot;size&quot;:9997,&quot;url&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/contents/Ashes_-_Stellar.mid?ref=main&quot;,&quot;html_url&quot;:&quot;https://github.com/thewildwestmidis/midis/blob/main/Ashes_-_Stellar.mid&quot;,&quot;git_url&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/git/blobs/4fbb1070d1892c856417a132e7dee0f21d19e816&quot;,&quot;download_url&quot;:&quot;https://raw.githubusercontent.com/thewildwestmidis/midis/main/Ashes_-_Stellar.mid&quot;,&quot;type&quot;:&quot;file&quot;,&quot;_links&quot;:{&quot;self&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/contents/Ashes_-_Stellar.mid?ref=main&quot;,&quot;git&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/git/blobs/4fbb1070d1892c856417a132e7dee0f21d19e816&quot;,&quot;html&quot;:&quot;https://github.com/thewildwestmidis/midis/blob/main/Ashes_-_Stellar.mid&quot;}}">
+                Favorite
+            </button>
+        </li><li>
+            <div class="divmidiinfo">
+                <p class="midiname"><a href="/midi?m=Asura's%20Wrath%20-%20In%20Your%20Belief.mid" style="color: inherit; text-decoration: none;">Asura's Wrath - In Your Belief</a></p>
+                <p class="duration">3 min, 07 sec</p>
+            </div>
+            <button class="play-button" data-url="https://raw.githubusercontent.com/thewildwestmidis/midis/main/Asura's%20Wrath%20-%20In%20Your%20Belief.mid">►</button>
+            <div class="PlayMusicPos"></div>
+            <button class="copy-button" data-url="https://thewildwestmidis.github.io/midis/Asura's%20Wrath%20-%20In%20Your%20Belief.mid">Copy Midi Data</button>
+            <button class="favorite-button" data-file="{&quot;name&quot;:&quot;Asura" s="" wrath="" -="" in="" your="" belief.mid","path":"asura's="" belief.mid","sha":"f3209cb062b19fe0559d1325db7b76806b4cce53","size":13098,"url":"https:="" api.github.com="" repos="" thewildwestmidis="" midis="" contents="" asura's%20wrath%20-%20in%20your%20belief.mid?ref="main&quot;,&quot;html_url&quot;:&quot;https://github.com/thewildwestmidis/midis/blob/main/Asura's%20Wrath%20-%20In%20Your%20Belief.mid&quot;,&quot;git_url&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/git/blobs/f3209cb062b19fe0559d1325db7b76806b4cce53&quot;,&quot;download_url&quot;:&quot;https://raw.githubusercontent.com/thewildwestmidis/midis/main/Asura's%20Wrath%20-%20In%20Your%20Belief.mid&quot;,&quot;type&quot;:&quot;file&quot;,&quot;_links&quot;:{&quot;self&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/contents/Asura's%20Wrath%20-%20In%20Your%20Belief.mid?ref=main&quot;,&quot;git&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/git/blobs/f3209cb062b19fe0559d1325db7b76806b4cce53&quot;,&quot;html&quot;:&quot;https://github.com/thewildwestmidis/midis/blob/main/Asura's%20Wrath%20-%20In%20Your%20Belief.mid&quot;}}'">
+                Favorite
+            </button>
+        </li><li>
+            <div class="divmidiinfo">
+                <p class="midiname"><a href="/midi?m=Asura's%20wrath%20-%20Bonds.mid" style="color: inherit; text-decoration: none;">Asura's wrath - Bonds</a></p>
+                <p class="duration">1 min, 23 sec</p>
+            </div>
+            <button class="play-button" data-url="https://raw.githubusercontent.com/thewildwestmidis/midis/main/Asura's%20wrath%20-%20Bonds.mid">►</button>
+            <div class="PlayMusicPos"></div>
+            <button class="copy-button" data-url="https://thewildwestmidis.github.io/midis/Asura's%20wrath%20-%20Bonds.mid">Copy Midi Data</button>
+            <button class="favorite-button" data-file="{&quot;name&quot;:&quot;Asura" s="" wrath="" -="" bonds.mid","path":"asura's="" bonds.mid","sha":"d473d7653996afaa04409e3999f49d7056d9e73a","size":2591,"url":"https:="" api.github.com="" repos="" thewildwestmidis="" midis="" contents="" asura's%20wrath%20-%20bonds.mid?ref="main&quot;,&quot;html_url&quot;:&quot;https://github.com/thewildwestmidis/midis/blob/main/Asura's%20wrath%20-%20Bonds.mid&quot;,&quot;git_url&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/git/blobs/d473d7653996afaa04409e3999f49d7056d9e73a&quot;,&quot;download_url&quot;:&quot;https://raw.githubusercontent.com/thewildwestmidis/midis/main/Asura's%20wrath%20-%20Bonds.mid&quot;,&quot;type&quot;:&quot;file&quot;,&quot;_links&quot;:{&quot;self&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/contents/Asura's%20wrath%20-%20Bonds.mid?ref=main&quot;,&quot;git&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/git/blobs/d473d7653996afaa04409e3999f49d7056d9e73a&quot;,&quot;html&quot;:&quot;https://github.com/thewildwestmidis/midis/blob/main/Asura's%20wrath%20-%20Bonds.mid&quot;}}'">
+                Favorite
+            </button>
+        </li><li>
+            <div class="divmidiinfo">
+                <p class="midiname"><a href="/midi?m=Attack%20on%20Titan%20-%20Jiyuu%20no%20Tsubasa.mid" style="color: inherit; text-decoration: none;">Attack on Titan - Jiyuu no Tsubasa</a></p>
+                <p class="duration">4 min, 14 sec</p>
+            </div>
+            <button class="play-button" data-url="https://raw.githubusercontent.com/thewildwestmidis/midis/main/Attack%20on%20Titan%20-%20Jiyuu%20no%20Tsubasa.mid">►</button>
+            <div class="PlayMusicPos"></div>
+            <button class="copy-button" data-url="https://thewildwestmidis.github.io/midis/Attack%20on%20Titan%20-%20Jiyuu%20no%20Tsubasa.mid">Copy Midi Data</button>
+            <button class="favorite-button" data-file="{&quot;name&quot;:&quot;Attack on Titan - Jiyuu no Tsubasa.mid&quot;,&quot;path&quot;:&quot;Attack on Titan - Jiyuu no Tsubasa.mid&quot;,&quot;sha&quot;:&quot;be2e80a076135b10de7eac566cb7268a5ebb2beb&quot;,&quot;size&quot;:28319,&quot;url&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/contents/Attack%20on%20Titan%20-%20Jiyuu%20no%20Tsubasa.mid?ref=main&quot;,&quot;html_url&quot;:&quot;https://github.com/thewildwestmidis/midis/blob/main/Attack%20on%20Titan%20-%20Jiyuu%20no%20Tsubasa.mid&quot;,&quot;git_url&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/git/blobs/be2e80a076135b10de7eac566cb7268a5ebb2beb&quot;,&quot;download_url&quot;:&quot;https://raw.githubusercontent.com/thewildwestmidis/midis/main/Attack%20on%20Titan%20-%20Jiyuu%20no%20Tsubasa.mid&quot;,&quot;type&quot;:&quot;file&quot;,&quot;_links&quot;:{&quot;self&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/contents/Attack%20on%20Titan%20-%20Jiyuu%20no%20Tsubasa.mid?ref=main&quot;,&quot;git&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/git/blobs/be2e80a076135b10de7eac566cb7268a5ebb2beb&quot;,&quot;html&quot;:&quot;https://github.com/thewildwestmidis/midis/blob/main/Attack%20on%20Titan%20-%20Jiyuu%20no%20Tsubasa.mid&quot;}}">
+                Favorite
+            </button>
+        </li><li>
+            <div class="divmidiinfo">
+                <p class="midiname"><a href="/midi?m=Attack%20on%20Titan%20-%20Vogel%20im%20K%E4fig.mid" style="color: inherit; text-decoration: none;">Attack on Titan - Vogel im K%E4fig</a></p>
+                <p class="duration"></p>
+            </div>
+            <button class="play-button" data-url="https://raw.githubusercontent.com/thewildwestmidis/midis/main/Attack on Titan - Vogel im K%E4fig.mid">►</button>
+            <div class="PlayMusicPos"></div>
+            <button class="copy-button" data-url="https://thewildwestmidis.github.io/midis/Attack%20on%20Titan%20-%20Vogel%20im%20K%E4fig.mid">Copy Midi Data</button>
+            <button class="favorite-button" data-file="{&quot;name&quot;:&quot;Attack on Titan - Vogel im K%E4fig.mid&quot;,&quot;path&quot;:&quot;Attack on Titan - Vogel im K%E4fig.mid&quot;,&quot;sha&quot;:&quot;8ffe7650ec25942fd50bc12f13505873dbd199a0&quot;,&quot;size&quot;:15312,&quot;url&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/contents/Attack%20on%20Titan%20-%20Vogel%20im%20K%25E4fig.mid?ref=main&quot;,&quot;html_url&quot;:&quot;https://github.com/thewildwestmidis/midis/blob/main/Attack%20on%20Titan%20-%20Vogel%20im%20K%25E4fig.mid&quot;,&quot;git_url&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/git/blobs/8ffe7650ec25942fd50bc12f13505873dbd199a0&quot;,&quot;download_url&quot;:&quot;https://raw.githubusercontent.com/thewildwestmidis/midis/main/Attack on Titan - Vogel im K%E4fig.mid&quot;,&quot;type&quot;:&quot;file&quot;,&quot;_links&quot;:{&quot;self&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/contents/Attack%20on%20Titan%20-%20Vogel%20im%20K%25E4fig.mid?ref=main&quot;,&quot;git&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/git/blobs/8ffe7650ec25942fd50bc12f13505873dbd199a0&quot;,&quot;html&quot;:&quot;https://github.com/thewildwestmidis/midis/blob/main/Attack%20on%20Titan%20-%20Vogel%20im%20K%25E4fig.mid&quot;}}">
+                Favorite
+            </button>
+        </li><li>
+            <div class="divmidiinfo">
+                <p class="midiname"><a href="/midi?m=Avengers%20Theme.mid" style="color: inherit; text-decoration: none;">Avengers Theme</a></p>
+                <p class="duration">1 min, 54 sec</p>
+            </div>
+            <button class="play-button" data-url="https://raw.githubusercontent.com/thewildwestmidis/midis/main/Avengers%20Theme.mid">►</button>
+            <div class="PlayMusicPos"></div>
+            <button class="copy-button" data-url="https://thewildwestmidis.github.io/midis/Avengers%20Theme.mid">Copy Midi Data</button>
+            <button class="favorite-button" data-file="{&quot;name&quot;:&quot;Avengers Theme.mid&quot;,&quot;path&quot;:&quot;Avengers Theme.mid&quot;,&quot;sha&quot;:&quot;e19c49341fb29a0b598079d45bf2b174c006040b&quot;,&quot;size&quot;:7647,&quot;url&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/contents/Avengers%20Theme.mid?ref=main&quot;,&quot;html_url&quot;:&quot;https://github.com/thewildwestmidis/midis/blob/main/Avengers%20Theme.mid&quot;,&quot;git_url&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/git/blobs/e19c49341fb29a0b598079d45bf2b174c006040b&quot;,&quot;download_url&quot;:&quot;https://raw.githubusercontent.com/thewildwestmidis/midis/main/Avengers%20Theme.mid&quot;,&quot;type&quot;:&quot;file&quot;,&quot;_links&quot;:{&quot;self&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/contents/Avengers%20Theme.mid?ref=main&quot;,&quot;git&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/git/blobs/e19c49341fb29a0b598079d45bf2b174c006040b&quot;,&quot;html&quot;:&quot;https://github.com/thewildwestmidis/midis/blob/main/Avengers%20Theme.mid&quot;}}">
+                Favorite
+            </button>
+        </li><li>
+            <div class="divmidiinfo">
+                <p class="midiname"><a href="/midi?m=Avengers-Endgame-Portals.mid" style="color: inherit; text-decoration: none;">Avengers Endgame Portals</a></p>
+                <p class="duration">5 min, 04 sec</p>
+            </div>
+            <button class="play-button" data-url="https://raw.githubusercontent.com/thewildwestmidis/midis/main/Avengers-Endgame-Portals.mid">►</button>
+            <div class="PlayMusicPos"></div>
+            <button class="copy-button" data-url="https://thewildwestmidis.github.io/midis/Avengers-Endgame-Portals.mid">Copy Midi Data</button>
+            <button class="favorite-button" data-file="{&quot;name&quot;:&quot;Avengers-Endgame-Portals.mid&quot;,&quot;path&quot;:&quot;Avengers-Endgame-Portals.mid&quot;,&quot;sha&quot;:&quot;ae4f63bec86d3b5a1f61dc58e58e0c75bce30be3&quot;,&quot;size&quot;:17882,&quot;url&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/contents/Avengers-Endgame-Portals.mid?ref=main&quot;,&quot;html_url&quot;:&quot;https://github.com/thewildwestmidis/midis/blob/main/Avengers-Endgame-Portals.mid&quot;,&quot;git_url&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/git/blobs/ae4f63bec86d3b5a1f61dc58e58e0c75bce30be3&quot;,&quot;download_url&quot;:&quot;https://raw.githubusercontent.com/thewildwestmidis/midis/main/Avengers-Endgame-Portals.mid&quot;,&quot;type&quot;:&quot;file&quot;,&quot;_links&quot;:{&quot;self&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/contents/Avengers-Endgame-Portals.mid?ref=main&quot;,&quot;git&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/git/blobs/ae4f63bec86d3b5a1f61dc58e58e0c75bce30be3&quot;,&quot;html&quot;:&quot;https://github.com/thewildwestmidis/midis/blob/main/Avengers-Endgame-Portals.mid&quot;}}">
+                Favorite
+            </button>
+        </li><li>
+            <div class="divmidiinfo">
+                <p class="midiname"><a href="/midi?m=Avengers.mid" style="color: inherit; text-decoration: none;">Avengers</a></p>
+                <p class="duration">0 min, 53 sec</p>
+            </div>
+            <button class="play-button" data-url="https://raw.githubusercontent.com/thewildwestmidis/midis/main/Avengers.mid">►</button>
+            <div class="PlayMusicPos"></div>
+            <button class="copy-button" data-url="https://thewildwestmidis.github.io/midis/Avengers.mid">Copy Midi Data</button>
+            <button class="favorite-button" data-file="{&quot;name&quot;:&quot;Avengers.mid&quot;,&quot;path&quot;:&quot;Avengers.mid&quot;,&quot;sha&quot;:&quot;92c359403be01d79541d329cb7b5a13f03830a92&quot;,&quot;size&quot;:6265,&quot;url&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/contents/Avengers.mid?ref=main&quot;,&quot;html_url&quot;:&quot;https://github.com/thewildwestmidis/midis/blob/main/Avengers.mid&quot;,&quot;git_url&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/git/blobs/92c359403be01d79541d329cb7b5a13f03830a92&quot;,&quot;download_url&quot;:&quot;https://raw.githubusercontent.com/thewildwestmidis/midis/main/Avengers.mid&quot;,&quot;type&quot;:&quot;file&quot;,&quot;_links&quot;:{&quot;self&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/contents/Avengers.mid?ref=main&quot;,&quot;git&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/git/blobs/92c359403be01d79541d329cb7b5a13f03830a92&quot;,&quot;html&quot;:&quot;https://github.com/thewildwestmidis/midis/blob/main/Avengers.mid&quot;}}">
+                Favorite
+            </button>
+        </li><li>
+            <div class="divmidiinfo">
+                <p class="midiname"><a href="/midi?m=Avengers_%20Age%20of%20Ultron%20-%20Heroes.mid" style="color: inherit; text-decoration: none;">Avengers  Age of Ultron - Heroes</a></p>
+                <p class="duration">2 min, 09 sec</p>
+            </div>
+            <button class="play-button" data-url="https://raw.githubusercontent.com/thewildwestmidis/midis/main/Avengers_%20Age%20of%20Ultron%20-%20Heroes.mid">►</button>
+            <div class="PlayMusicPos"></div>
+            <button class="copy-button" data-url="https://thewildwestmidis.github.io/midis/Avengers_%20Age%20of%20Ultron%20-%20Heroes.mid">Copy Midi Data</button>
+            <button class="favorite-button" data-file="{&quot;name&quot;:&quot;Avengers_ Age of Ultron - Heroes.mid&quot;,&quot;path&quot;:&quot;Avengers_ Age of Ultron - Heroes.mid&quot;,&quot;sha&quot;:&quot;a39f20c7ad489c1867aceff82f9809b2c198ca81&quot;,&quot;size&quot;:12195,&quot;url&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/contents/Avengers_%20Age%20of%20Ultron%20-%20Heroes.mid?ref=main&quot;,&quot;html_url&quot;:&quot;https://github.com/thewildwestmidis/midis/blob/main/Avengers_%20Age%20of%20Ultron%20-%20Heroes.mid&quot;,&quot;git_url&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/git/blobs/a39f20c7ad489c1867aceff82f9809b2c198ca81&quot;,&quot;download_url&quot;:&quot;https://raw.githubusercontent.com/thewildwestmidis/midis/main/Avengers_%20Age%20of%20Ultron%20-%20Heroes.mid&quot;,&quot;type&quot;:&quot;file&quot;,&quot;_links&quot;:{&quot;self&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/contents/Avengers_%20Age%20of%20Ultron%20-%20Heroes.mid?ref=main&quot;,&quot;git&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/git/blobs/a39f20c7ad489c1867aceff82f9809b2c198ca81&quot;,&quot;html&quot;:&quot;https://github.com/thewildwestmidis/midis/blob/main/Avengers_%20Age%20of%20Ultron%20-%20Heroes.mid&quot;}}">
+                Favorite
+            </button>
+        </li><li>
+            <div class="divmidiinfo">
+                <p class="midiname"><a href="/midi?m=Avengers___Infinity_War.mid" style="color: inherit; text-decoration: none;">Avengers   Infinity War</a></p>
+                <p class="duration">1 min, 25 sec</p>
+            </div>
+            <button class="play-button" data-url="https://raw.githubusercontent.com/thewildwestmidis/midis/main/Avengers___Infinity_War.mid">►</button>
+            <div class="PlayMusicPos"></div>
+            <button class="copy-button" data-url="https://thewildwestmidis.github.io/midis/Avengers___Infinity_War.mid">Copy Midi Data</button>
+            <button class="favorite-button" data-file="{&quot;name&quot;:&quot;Avengers___Infinity_War.mid&quot;,&quot;path&quot;:&quot;Avengers___Infinity_War.mid&quot;,&quot;sha&quot;:&quot;a1daa90ed220827c4dbd065ce29d3fed8eef02fb&quot;,&quot;size&quot;:5238,&quot;url&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/contents/Avengers___Infinity_War.mid?ref=main&quot;,&quot;html_url&quot;:&quot;https://github.com/thewildwestmidis/midis/blob/main/Avengers___Infinity_War.mid&quot;,&quot;git_url&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/git/blobs/a1daa90ed220827c4dbd065ce29d3fed8eef02fb&quot;,&quot;download_url&quot;:&quot;https://raw.githubusercontent.com/thewildwestmidis/midis/main/Avengers___Infinity_War.mid&quot;,&quot;type&quot;:&quot;file&quot;,&quot;_links&quot;:{&quot;self&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/contents/Avengers___Infinity_War.mid?ref=main&quot;,&quot;git&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/git/blobs/a1daa90ed220827c4dbd065ce29d3fed8eef02fb&quot;,&quot;html&quot;:&quot;https://github.com/thewildwestmidis/midis/blob/main/Avengers___Infinity_War.mid&quot;}}">
+                Favorite
+            </button>
+        </li><li>
+            <div class="divmidiinfo">
+                <p class="midiname"><a href="/midi?m=Avicii%20-%20Levels%20(Skrillex%20remix).mid" style="color: inherit; text-decoration: none;">Avicii - Levels (Skrillex remix)</a></p>
+                <p class="duration">0 min, 07 sec</p>
+            </div>
+            <button class="play-button" data-url="https://raw.githubusercontent.com/thewildwestmidis/midis/main/Avicii%20-%20Levels%20(Skrillex%20remix).mid">►</button>
+            <div class="PlayMusicPos"></div>
+            <button class="copy-button" data-url="https://thewildwestmidis.github.io/midis/Avicii%20-%20Levels%20(Skrillex%20remix).mid">Copy Midi Data</button>
+            <button class="favorite-button" data-file="{&quot;name&quot;:&quot;Avicii - Levels (Skrillex remix).mid&quot;,&quot;path&quot;:&quot;Avicii - Levels (Skrillex remix).mid&quot;,&quot;sha&quot;:&quot;f777d86eede0aaa8fdcd96c844e32c86936546bc&quot;,&quot;size&quot;:763,&quot;url&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/contents/Avicii%20-%20Levels%20(Skrillex%20remix).mid?ref=main&quot;,&quot;html_url&quot;:&quot;https://github.com/thewildwestmidis/midis/blob/main/Avicii%20-%20Levels%20(Skrillex%20remix).mid&quot;,&quot;git_url&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/git/blobs/f777d86eede0aaa8fdcd96c844e32c86936546bc&quot;,&quot;download_url&quot;:&quot;https://raw.githubusercontent.com/thewildwestmidis/midis/main/Avicii%20-%20Levels%20(Skrillex%20remix).mid&quot;,&quot;type&quot;:&quot;file&quot;,&quot;_links&quot;:{&quot;self&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/contents/Avicii%20-%20Levels%20(Skrillex%20remix).mid?ref=main&quot;,&quot;git&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/git/blobs/f777d86eede0aaa8fdcd96c844e32c86936546bc&quot;,&quot;html&quot;:&quot;https://github.com/thewildwestmidis/midis/blob/main/Avicii%20-%20Levels%20(Skrillex%20remix).mid&quot;}}">
+                Favorite
+            </button>
+        </li><li>
+            <div class="divmidiinfo">
+                <p class="midiname"><a href="/midi?m=Avicii%20-%20Levels.mid" style="color: inherit; text-decoration: none;">Avicii - Levels</a></p>
+                <p class="duration"></p>
+            </div>
+            <button class="play-button" data-url="https://raw.githubusercontent.com/thewildwestmidis/midis/main/Avicii%20-%20Levels.mid">►</button>
+            <div class="PlayMusicPos"></div>
+            <button class="copy-button" data-url="https://thewildwestmidis.github.io/midis/Avicii%20-%20Levels.mid">Copy Midi Data</button>
+            <button class="favorite-button" data-file="{&quot;name&quot;:&quot;Avicii - Levels.mid&quot;,&quot;path&quot;:&quot;Avicii - Levels.mid&quot;,&quot;sha&quot;:&quot;06f55c5791b8523c126ceeb144583f8415247066&quot;,&quot;size&quot;:2675,&quot;url&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/contents/Avicii%20-%20Levels.mid?ref=main&quot;,&quot;html_url&quot;:&quot;https://github.com/thewildwestmidis/midis/blob/main/Avicii%20-%20Levels.mid&quot;,&quot;git_url&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/git/blobs/06f55c5791b8523c126ceeb144583f8415247066&quot;,&quot;download_url&quot;:&quot;https://raw.githubusercontent.com/thewildwestmidis/midis/main/Avicii%20-%20Levels.mid&quot;,&quot;type&quot;:&quot;file&quot;,&quot;_links&quot;:{&quot;self&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/contents/Avicii%20-%20Levels.mid?ref=main&quot;,&quot;git&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/git/blobs/06f55c5791b8523c126ceeb144583f8415247066&quot;,&quot;html&quot;:&quot;https://github.com/thewildwestmidis/midis/blob/main/Avicii%20-%20Levels.mid&quot;}}">
+                Favorite
+            </button>
+        </li><li>
+            <div class="divmidiinfo">
+                <p class="midiname"><a href="/midi?m=Avicii%20-%20Waiting%20for%20love.mid" style="color: inherit; text-decoration: none;">Avicii - Waiting for love</a></p>
+                <p class="duration">1 min, 15 sec</p>
+            </div>
+            <button class="play-button" data-url="https://raw.githubusercontent.com/thewildwestmidis/midis/main/Avicii%20-%20Waiting%20for%20love.mid">►</button>
+            <div class="PlayMusicPos"></div>
+            <button class="copy-button" data-url="https://thewildwestmidis.github.io/midis/Avicii%20-%20Waiting%20for%20love.mid">Copy Midi Data</button>
+            <button class="favorite-button" data-file="{&quot;name&quot;:&quot;Avicii - Waiting for love.mid&quot;,&quot;path&quot;:&quot;Avicii - Waiting for love.mid&quot;,&quot;sha&quot;:&quot;9e7824a9d5ea68321a7f19b9d40d2d385774ed80&quot;,&quot;size&quot;:3615,&quot;url&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/contents/Avicii%20-%20Waiting%20for%20love.mid?ref=main&quot;,&quot;html_url&quot;:&quot;https://github.com/thewildwestmidis/midis/blob/main/Avicii%20-%20Waiting%20for%20love.mid&quot;,&quot;git_url&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/git/blobs/9e7824a9d5ea68321a7f19b9d40d2d385774ed80&quot;,&quot;download_url&quot;:&quot;https://raw.githubusercontent.com/thewildwestmidis/midis/main/Avicii%20-%20Waiting%20for%20love.mid&quot;,&quot;type&quot;:&quot;file&quot;,&quot;_links&quot;:{&quot;self&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/contents/Avicii%20-%20Waiting%20for%20love.mid?ref=main&quot;,&quot;git&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/git/blobs/9e7824a9d5ea68321a7f19b9d40d2d385774ed80&quot;,&quot;html&quot;:&quot;https://github.com/thewildwestmidis/midis/blob/main/Avicii%20-%20Waiting%20for%20love.mid&quot;}}">
+                Favorite
+            </button>
+        </li><li>
+            <div class="divmidiinfo">
+                <p class="midiname"><a href="/midi?m=Awake%20Ye%20Saints%20of%20God%20Awake.mid" style="color: inherit; text-decoration: none;">Awake Ye Saints of God Awake</a></p>
+                <p class="duration">2 min, 31 sec</p>
+            </div>
+            <button class="play-button" data-url="https://raw.githubusercontent.com/thewildwestmidis/midis/main/Awake%20Ye%20Saints%20of%20God%20Awake.mid">►</button>
+            <div class="PlayMusicPos"></div>
+            <button class="copy-button" data-url="https://thewildwestmidis.github.io/midis/Awake%20Ye%20Saints%20of%20God%20Awake.mid">Copy Midi Data</button>
+            <button class="favorite-button" data-file="{&quot;name&quot;:&quot;Awake Ye Saints of God Awake.mid&quot;,&quot;path&quot;:&quot;Awake Ye Saints of God Awake.mid&quot;,&quot;sha&quot;:&quot;133dace2653fbf4b2c890f954ab5d8f071a75f8c&quot;,&quot;size&quot;:5718,&quot;url&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/contents/Awake%20Ye%20Saints%20of%20God%20Awake.mid?ref=main&quot;,&quot;html_url&quot;:&quot;https://github.com/thewildwestmidis/midis/blob/main/Awake%20Ye%20Saints%20of%20God%20Awake.mid&quot;,&quot;git_url&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/git/blobs/133dace2653fbf4b2c890f954ab5d8f071a75f8c&quot;,&quot;download_url&quot;:&quot;https://raw.githubusercontent.com/thewildwestmidis/midis/main/Awake%20Ye%20Saints%20of%20God%20Awake.mid&quot;,&quot;type&quot;:&quot;file&quot;,&quot;_links&quot;:{&quot;self&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/contents/Awake%20Ye%20Saints%20of%20God%20Awake.mid?ref=main&quot;,&quot;git&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/git/blobs/133dace2653fbf4b2c890f954ab5d8f071a75f8c&quot;,&quot;html&quot;:&quot;https://github.com/thewildwestmidis/midis/blob/main/Awake%20Ye%20Saints%20of%20God%20Awake.mid&quot;}}">
+                Favorite
+            </button>
+        </li><li>
+            <div class="divmidiinfo">
+                <p class="midiname"><a href="/midi?m=BONEY%20M.Rasputin%20K.mid" style="color: inherit; text-decoration: none;">BONEY M.Rasputin K</a></p>
+                <p class="duration">4 min, 28 sec</p>
+            </div>
+            <button class="play-button" data-url="https://raw.githubusercontent.com/thewildwestmidis/midis/main/BONEY%20M.Rasputin%20K.mid">►</button>
+            <div class="PlayMusicPos"></div>
+            <button class="copy-button" data-url="https://thewildwestmidis.github.io/midis/BONEY%20M.Rasputin%20K.mid">Copy Midi Data</button>
+            <button class="favorite-button" data-file="{&quot;name&quot;:&quot;BONEY M.Rasputin K.mid&quot;,&quot;path&quot;:&quot;BONEY M.Rasputin K.mid&quot;,&quot;sha&quot;:&quot;7e5a7b06bde9db274833f6eb84a50dd636139ec9&quot;,&quot;size&quot;:73837,&quot;url&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/contents/BONEY%20M.Rasputin%20K.mid?ref=main&quot;,&quot;html_url&quot;:&quot;https://github.com/thewildwestmidis/midis/blob/main/BONEY%20M.Rasputin%20K.mid&quot;,&quot;git_url&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/git/blobs/7e5a7b06bde9db274833f6eb84a50dd636139ec9&quot;,&quot;download_url&quot;:&quot;https://raw.githubusercontent.com/thewildwestmidis/midis/main/BONEY%20M.Rasputin%20K.mid&quot;,&quot;type&quot;:&quot;file&quot;,&quot;_links&quot;:{&quot;self&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/contents/BONEY%20M.Rasputin%20K.mid?ref=main&quot;,&quot;git&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/git/blobs/7e5a7b06bde9db274833f6eb84a50dd636139ec9&quot;,&quot;html&quot;:&quot;https://github.com/thewildwestmidis/midis/blob/main/BONEY%20M.Rasputin%20K.mid&quot;}}">
+                Favorite
+            </button>
+        </li><li>
+            <div class="divmidiinfo">
+                <p class="midiname"><a href="/midi?m=BRNS%20Past%20Lives.mid" style="color: inherit; text-decoration: none;">BRNS Past Lives</a></p>
+                <p class="duration">4 min, 32 sec</p>
+            </div>
+            <button class="play-button" data-url="https://raw.githubusercontent.com/thewildwestmidis/midis/main/BRNS%20Past%20Lives.mid">►</button>
+            <div class="PlayMusicPos"></div>
+            <button class="copy-button" data-url="https://thewildwestmidis.github.io/midis/BRNS%20Past%20Lives.mid">Copy Midi Data</button>
+            <button class="favorite-button" data-file="{&quot;name&quot;:&quot;BRNS Past Lives.mid&quot;,&quot;path&quot;:&quot;BRNS Past Lives.mid&quot;,&quot;sha&quot;:&quot;c99cdf13bce5be2e019a3fe20525cc0fceadc666&quot;,&quot;size&quot;:21143,&quot;url&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/contents/BRNS%20Past%20Lives.mid?ref=main&quot;,&quot;html_url&quot;:&quot;https://github.com/thewildwestmidis/midis/blob/main/BRNS%20Past%20Lives.mid&quot;,&quot;git_url&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/git/blobs/c99cdf13bce5be2e019a3fe20525cc0fceadc666&quot;,&quot;download_url&quot;:&quot;https://raw.githubusercontent.com/thewildwestmidis/midis/main/BRNS%20Past%20Lives.mid&quot;,&quot;type&quot;:&quot;file&quot;,&quot;_links&quot;:{&quot;self&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/contents/BRNS%20Past%20Lives.mid?ref=main&quot;,&quot;git&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/git/blobs/c99cdf13bce5be2e019a3fe20525cc0fceadc666&quot;,&quot;html&quot;:&quot;https://github.com/thewildwestmidis/midis/blob/main/BRNS%20Past%20Lives.mid&quot;}}">
+                Favorite
+            </button>
+        </li><li>
+            <div class="divmidiinfo">
+                <p class="midiname"><a href="/midi?m=Back%20To%20The%20Future%20-%20Main%20Theme.mid" style="color: inherit; text-decoration: none;">Back To The Future - Main Theme</a></p>
+                <p class="duration">3 min, 01 sec</p>
+            </div>
+            <button class="play-button" data-url="https://raw.githubusercontent.com/thewildwestmidis/midis/main/Back%20To%20The%20Future%20-%20Main%20Theme.mid">►</button>
+            <div class="PlayMusicPos"></div>
+            <button class="copy-button" data-url="https://thewildwestmidis.github.io/midis/Back%20To%20The%20Future%20-%20Main%20Theme.mid">Copy Midi Data</button>
+            <button class="favorite-button" data-file="{&quot;name&quot;:&quot;Back To The Future - Main Theme.mid&quot;,&quot;path&quot;:&quot;Back To The Future - Main Theme.mid&quot;,&quot;sha&quot;:&quot;d0e5d20714a3573775e2b14480ae62dd3c911c38&quot;,&quot;size&quot;:21974,&quot;url&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/contents/Back%20To%20The%20Future%20-%20Main%20Theme.mid?ref=main&quot;,&quot;html_url&quot;:&quot;https://github.com/thewildwestmidis/midis/blob/main/Back%20To%20The%20Future%20-%20Main%20Theme.mid&quot;,&quot;git_url&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/git/blobs/d0e5d20714a3573775e2b14480ae62dd3c911c38&quot;,&quot;download_url&quot;:&quot;https://raw.githubusercontent.com/thewildwestmidis/midis/main/Back%20To%20The%20Future%20-%20Main%20Theme.mid&quot;,&quot;type&quot;:&quot;file&quot;,&quot;_links&quot;:{&quot;self&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/contents/Back%20To%20The%20Future%20-%20Main%20Theme.mid?ref=main&quot;,&quot;git&quot;:&quot;https://api.github.com/repos/thewildwestmidis/midis/git/blobs/d0e5d20714a3573775e2b14480ae62dd3c911c38&quot;,&quot;html&quot;:&quot;https://github.com/thewildwestmidis/midis/blob/main/Back%20To%20The%20Future%20-%20Main%20Theme.mid&quot;}}">
+                Favorite
+            </button>
+        </li></ul>
+    <center>
+    <div id="paginationmain">
+    <h3>Pages:</h3>
+    <div id="pagination"><button class="active">1</button><button>2</button><button>3</button><button>4</button><button>5</button><button>6</button><button>7</button><button>8</button><button>9</button><button>10</button><button>11</button><button>12</button><button>13</button><button>14</button><button>15</button><button>16</button><button>17</button></div>
+    </div>
+    <p>This page is meant to be used for the Roblox game <a href="https://www.roblox.com/games/2317712696/The-Wild-West" target="_blank">The Wild West</a></p>
+    </center>
+    
+    <script src="https://unpkg.com/@tonejs/midi"></script>
+    <script src="script.js"></script>
+
+
+
 </body>
-</html>
